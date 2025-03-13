@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/works/000000000001",
+  "type": "PropositionalObject",
+  "_label": "The show of Absalon, Absalon! as conceived by Séverine Chavrier",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300387357",
+      "type": "Type",
+      "_label": "works (general, creative)"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Title"
+        }
+      ],
+      "content": "Absalon, Absalon !",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "label": "French"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "carried_out_by": [
+      {
+        "id": "https://data.stage.org/auth/000000000001",
+        "type": "Person",
+        "_label": "Séverine Chavrier",
+        "classified_as": [
+          {
+            "id": "http://id.loc.gov/vocabulary/relators/drt",
+            "type": "Type",
+            "_label": "director"
+          }
+        ]
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2024",
+      "begin_of_the_begin": "2024-01-01T00:00:00Z"
+    }
+  },
+  "subject_of": [
+    {
+      "id": "https://data.stage.org/programs/000000000001",
+      "type": "LinguisticObject",
+      "_label": "Absalon show programme",
+      "classified_as": [
+        {
+          "id": "https://vocab.getty.edu/aat/300027216",
+          "type": "Type",
+          "_label": "show programme",
+          "classified_as": [
+            {
+              "id": "https://vocab.getty.edu/aat/300311936",
+              "type": "Type",
+              "_label": "primary source"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://data.stage.org/text/000000000101 (text.json)",
+      "type": "LinguisticObject",
+      "_label": "Absalon de Faulkner",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300410356",
+          "type": "Type",
+          "_label": "Adaptation"
+        }
+      ]
+    }
+  ]
+}

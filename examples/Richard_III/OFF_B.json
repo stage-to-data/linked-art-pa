@@ -1,0 +1,305 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/prod/000000000001",
+  "type": "Activity",
+  "_label": "Richard III in Avignon OFF (Season)",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300069200",
+      "type": "Type",
+      "_label": "Performances (creative events)",
+      "classified_as": [
+        {
+          "id": "https://vocab.getty.edu/aat/300417582",
+          "type": "Type",
+          "_label": "Theater (genre)",
+          "referred_to_by": [
+            {
+              "type": "LinguisticObject",
+              "_label": "genre as appears in program",
+              "classified_as": [
+                {
+                  "id": "https://vocab.getty.edu/aat/300435423",
+                  "type": "Type",
+                  "_label": "Literal transcription"
+                }
+              ],
+              "content": "Théâtre",
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388306",
+                  "type": "Language",
+                  "label": "French"
+                }
+              ]
+            },
+            {
+              "type": "LinguisticObject",
+              "_label": "sub-genre as appears in program",
+              "classified_as": [
+                {
+                  "id": "https://vocab.getty.edu/aat/300435423",
+                  "type": "Type",
+                  "_label": "Literal transcription"
+                }
+              ],
+              "content": "Théâtre classique",
+              "language": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300388306",
+                  "type": "Language",
+                  "label": "French"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Title"
+        }
+      ],
+      "content": "Richard III",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "label": "French"
+        }
+      ]
+    }
+  ],
+  "part_of": [
+    {
+      "id": "https://data.stage.org/festivals/000000000001",
+      "type": "Activity",
+      "_label": "Festival Avignon OFF 2024"
+    }
+  ],
+  "language": [
+    {
+      "id": "http://vocab.getty.edu/aat/300388306",
+      "type": "Language",
+      "label": "French"
+    }
+  ],
+  "influenced_by": [
+    {
+      "id": "https://data.stage.org/works/000000000001 (OFF_A.json)",
+      "type": "PropositionalObject",
+      "_label": "The show of Richard III as conceived by William Mesguish"
+    }
+  ],
+  "took_place_at": [
+    {
+      "id": "https://data.stage.org/auth/100000000001",
+      "type": "Place",
+      "_label": "GÉMEAUX (THÉÂTRE DES)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300121919",
+          "type": "Type",
+          "_label": "performing arts structures"
+        }
+      ],
+      "part": [
+        {
+          "type": "Salle",
+          "_label": "Salle des Colonnes",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300449028",
+              "type": "Type",
+              "_label": "performance halls"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "participant": [
+    {
+      "id": "https://data.stage.org/auth/600000000061",
+      "type": "Group",
+      "_label": "Cie Théatre de l'Étreinte",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300266039",
+          "type": "Type",
+          "_label": "Theater Companies"
+        }
+      ],
+      "identified_by": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300027760",
+          "type": "Identifier",
+          "_label": "Legal ID",
+          "content": "L-R-22-011632"
+        }
+      ]
+    }
+  ],
+  "carried_out_by": [
+    {
+      "id": "https://data.stage.org/auth/000000000001",
+      "type": "Person",
+      "_label": "William Mesguish",
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "_label": "role as appears in doc",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300435423",
+              "type": "Type",
+              "_label": "Literal transcription"
+            }
+          ],
+          "content": "Metteur·se en scène"
+        },
+        {
+          "type": "LinguisticObject",
+          "_label": "role as appears in doc",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300435423",
+              "type": "Type",
+              "_label": "Literal transcription"
+            }
+          ],
+          "content": "Comédien·ne"
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "http://id.loc.gov/vocabulary/relators/drt",
+          "type": "Type",
+          "_label": "metteur en scène"
+        },
+        {
+          "id": "http://id.loc.gov/vocabulary/relators/act",
+          "type": "Type",
+          "_label": "acteur"
+        }
+      ]
+    },
+    {
+      "id": "https://data.stage.org/auth/000000000001",
+      "type": "Person",
+      "_label": "Jessica Astier",
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "_label": "role as appears in doc",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300435423",
+              "type": "Type",
+              "_label": "Literal transcription"
+            }
+          ],
+          "content": "Graphiste"
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "http://id.loc.gov/vocabulary/relators/ill",
+          "type": "Type",
+          "_label": "Illustrator"
+        }
+      ]
+    }
+  ],
+
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description"
+        }
+      ],
+      "content": "Richard, un des frères du roi Édouard IV, le jalouse. Il est déterminé à prendre le trône et à le garder, quitte à supprimer tous ceux qui se dressent sur sa route vers le pouvoir. Richard III fait incontestablement partie de la galaxie des monuments de la tragédie : Baroque, effervescent, poétique et cruel. C’est un concentré d’apocalypse qui se déroule sous nos yeux et qui rappelle tragiquement les agissements de tous les extrémistes assoiffés de pouvoir."
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300192793",
+          "type": "Type",
+          "_label": "Audience"
+        }
+      ],
+      "content": "à partir de 14 ans",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "label": "French"
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "type": "VisualItem",
+      "_label": "Image from Program",
+      "digitally_shown_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "IIIF of the image",
+          "access_point": [
+            {
+              "id": "IIIF of image",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timespan": {
+    "type": "TimeSpan",
+    "_label": "Durée",
+    "duration": {
+      "type": "Dimension",
+      "value": 110,
+      "unit": {
+        "id": "http://vocab.getty.edu/aat/300379240",
+        "type": "MeasurementUnit",
+        "_label": "minutes"
+      }
+    }
+  },
+  "subject_of": [
+    {
+      "id": "Manifest IIIF",
+      "type": "DigitalObject",
+      "_label": "Festival Avignon OFF 2024 General Program",
+      "classified_as": [
+        {
+          "id": "https://vocab.getty.edu/aat/300027217",
+          "type": "Type",
+          "_label": "theater program",
+          "classified_as": [
+            {
+              "id": "https://vocab.getty.edu/aat/300311936",
+              "type": "Type",
+              "_label": "primary source"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

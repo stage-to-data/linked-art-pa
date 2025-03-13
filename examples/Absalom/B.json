@@ -1,0 +1,528 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/prod/000000000001",
+  "type": "Activity",
+  "_label": "Absalon, Absalon in Avignon (Season)",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300069200",
+      "type": "Type",
+      "_label": "Performances (creative events)",
+      "classified_as": [
+        {
+          "id": "https://vocab.getty.edu/aat/300417582",
+          "type": "Type",
+          "_label": "Theater (genre)",
+          "referred_to_by": [
+            {
+              "type": "LinguisticObject",
+              "_label": "genre as appears in program",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/page/aat/300456607",
+                  "type": "Type",
+                  "_label": "Literal transcription"
+                }
+              ],
+              "content": "Théâtre"
+            }
+          ]
+        },
+        {
+          "id": "http://vocab.getty.edu/page/aat/300069101",
+          "type": "Type",
+          "_label": "premieres",
+          "classifed_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300379393",
+              "type": "Type",
+              "_label": "International"
+            }
+          ],
+          "referred_to_by": [
+            {
+              "type": "LinguisticObject",
+              "_label": "category creation or not",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/page/aat/300435423",
+                  "type": "Type",
+                  "_label": "Literal transcription"
+                }
+              ],
+              "content": "Création Festival d'Avignon 2024"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "part_of": [
+    {
+      "id": "https://data.stage.org/festivals/000000000001",
+      "type": "Activity",
+      "_label": "78e Festival Avignon 2024"
+    }
+  ],
+  "subject_of": [
+    {
+      "id": "https://data.stage.org/programs/000000000001",
+      "type": "LinguisticObject",
+      "_label": "Absalon show programme",
+      "classified_as": [
+        {
+          "id": "https://vocab.getty.edu/aat/300027216",
+          "type": "Type",
+          "_label": "playbills",
+          "classified_as": [
+            {
+              "id": "https://vocab.getty.edu/aat/300311936",
+              "type": "Type",
+              "_label": "primary source"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "influenced_by": [
+    {
+      "id": "https://data.stage.org/works/000000000001 (A.json)",
+      "type": "PropositionalObject",
+      "_label": "The show of Absalon, Absalon! as conceived by Séverine Chavrier"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Title"
+        }
+      ],
+      "content": "Absalon, Absalon !",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "_label": "French"
+        }
+      ]
+    }
+  ],
+  "took_place_at": [
+    {
+      "id": "https://data.stage.org/auth/100000000001",
+      "type": "Place",
+      "_label": "La Fabrica",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300121919",
+          "type": "Type",
+          "_label": "performing arts structures"
+        }
+      ]
+    }
+  ],
+  "carried_out_by": [
+    {
+      "id": "https://data.stage.org/auth/000000000001",
+      "type": "Person",
+      "_label": "Séverine Chavrier",
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "_label": "role as appears in doc",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300435423",
+              "type": "Type",
+              "_label": "Literal transcription"
+            }
+          ],
+          "content": "adaptation et mise en scène"
+        },
+        {
+          "type": "LinguisticObject",
+          "_label": "bio as appears in doc",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300435422",
+              "type": "Type",
+              "_label": "Artist's Biography"
+            }
+          ],
+          "content": "Actuelle directrice de la Comédie de Genève, actrice et metteuse en scène, Séverine Chavrier est reconnue pour son théâtre engagé. À travers des spectacles pluridisciplinaires, elle explore des sujets tels que les inégalités sociales, les questions d’identité, les conflits contemporains et les enjeux environnementaux, offrant ainsi au public des réflexions profondes et stimulantes sur le monde qui nous entoure. En tant que comédienne ou musicienne, elle a multiplié les compagnonnages avec Rodolphe Burger, François Verret et Jean-Louis Martinelli, tout en dirigeant sa propre compagnie, La Sérénade interrompue, avec laquelle elle développe une approche singulière de la mise en scène, où le théâtre dialogue avec la musique, mais aussi avec l’image et la littérature. Séverine Chavrier construit en effet son expression à partir de toutes sortes de matières : le corps de ses acteurs, le son de son piano préparé, les vidéos qu’elle réalise souvent elle-même, sans oublier la parole. Une parole erratique qu’elle façonne en se plongeant dans l’univers des auteurs qu’elle affectionne. D’abord avec Hanokh Levin pour Épousailles et Représailles, puis aujourd’hui avec J.G. Ballard. Au Festival d’Avignon, on a pu la voir en 2011 dans le spectacle de François Verret, Courts-Circuits, et dans un concert d’improvisation avec Jean-Pierre Drouet.",
+          "language": [
+            {
+              "id": "http://vocab.getty.edu/aat/300388306",
+              "type": "Language",
+              "_label": "French"
+            }
+          ]
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "http://id.loc.gov/vocabulary/relators/drt",
+          "type": "Type",
+          "_label": "director"
+        },
+        {
+          "id": "http://id.loc.gov/vocabulary/relators/adp",
+          "type": "Type",
+          "_label": "adapter"
+        }
+      ]
+    },
+    {
+      "id": "https://data.stage.org/auth/000000000009",
+      "type": "Person",
+      "_label": "Pierre Artières-Glissant",
+      "classified_as": [
+        {
+          "id": "http://id.loc.gov/vocabulary/relators/act",
+          "type": "Type",
+          "_label": "actor"
+        }
+      ],
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "_label": "role as appears in doc",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300435423",
+              "type": "Type",
+              "_label": "Literal transcription"
+            }
+          ],
+          "content": "avec"
+        }
+      ],
+      "plays": [
+        {
+          "type": "LinguisticObject",
+          "_label": "name of the character",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300410267",
+              "type": "Type",
+              "_label": "character"
+            }
+          ],
+          "content": "Henry",
+          "subject_of": [
+            {
+              "type": "DigitalObject",
+              "_label": "France Info",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300264578",
+                  "type": "Type",
+                  "_label": "Web Page",
+                  "classified_as": [
+                    {
+                      "id": "https://vocab.getty.edu/aat/300311936",
+                      "type": "Type",
+                      "_label": "primary source"
+                    }
+                  ],
+                  "created_by": {
+                    "type": "Creation",
+                    "_label": "article france TV info",
+                    "carried_out_by": [
+                      {
+                        "id": "https://data.stage.org/auth/500000000005",
+                        "type": "Person",
+                        "_label": "Tessa Grauman"
+                      }
+                    ]
+                  },
+                  "used_for": [
+                    {
+                      "type": "Activity",
+                      "_label": "France TV Info",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/aat/300054686",
+                          "type": "Type",
+                          "_label": "Publishing"
+                        }
+                      ],
+                      "timespan": {
+                        "type": "TimeSpan",
+                        "begin_of_the_begin": "2024-07-06T15:31:00Z",
+                        "begin_of_the_end": "2025-02-27T00:00:00Z"
+                      },
+                      "access_point": [
+                        {
+                          "id": "https://la1ere.francetvinfo.fr/festival-d-avignon-dans-absalon-absalon-la-famille-glissant-revit-a-travers-le-texte-et-sur-la-scene-1503722.html",
+                          "type": "DigitalObject"
+                        }
+                      ],
+                      "identified_by": [
+                        {
+                          "type": "Name",
+                          "classified_as": [
+                            {
+                              "id": "http://vocab.getty.edu/aat/300417193",
+                              "type": "Type",
+                              "_label": "titles (general, names)"
+                            }
+                          ],
+                          "content": "Festival d’Avignon : Dans \"Absalon, Absalon !\", la famille Glissant (re)vit à travers le texte et sur la scène",
+                          "language": [
+                            {
+                              "id": "http://vocab.getty.edu/aat/300388306",
+                              "type": "Language",
+                              "_label": "French"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://data.stage.org/auth/000000000202",
+      "type": "Person",
+      "_label": "Daphné Biiga Nwanak",
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "_label": "role as appears in doc",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300435423",
+              "type": "Type",
+              "_label": "Literal transcription"
+            }
+          ],
+          "content": "avec"
+        }
+      ],
+      "classified_as": [
+        {
+          "id": "http://id.loc.gov/vocabulary/relators/act",
+          "type": "Type",
+          "_label": "actor"
+        }
+      ]
+    }
+  ],
+  "timespan": {
+    "type": "TimeSpan",
+    "begin_of_the_begin": "2024-06-29T00:00:00Z",
+    "end_of_the_end": "2024-07-07T00:00:00Z"
+  },
+  "dimension": [
+    {
+      "type": "Dimension",
+      "_label": "Duration of the show",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300443981",
+          "type": "Type",
+          "_label": "Duration"
+        }
+      ],
+      "value": 300,
+      "unit": {
+        "id": "http://vocab.getty.edu/aat/300379240",
+        "type": "MeasurementUnit",
+        "_label": "minutes"
+      }
+    }
+  ],
+  "participant": [
+    {
+      "id": "https://data.stage.org/auth/600000000061",
+      "type": "Group",
+      "_label": "Comédie de Genève",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300419391",
+          "type": "Type",
+          "_label": "Production Companies"
+        }
+      ],
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "_label": "as appears in the program",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300456607",
+              "type": "Type",
+              "_label": "Literal transcription"
+            }
+          ],
+          "content": "Production"
+        }
+      ]
+    },
+    {
+      "id": "https://data.stage.org/auth/140000000041",
+      "type": "Group",
+      "_label": "Centre dramatique national Orléans Centre-Val de Loire",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300419391",
+          "type": "Type",
+          "_label": "Production Companies",
+          "referred_to_by": [
+            {
+              "type": "LinguisticObject",
+              "_label": "as appears in program",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/page/aat/300456607",
+                  "type": "Type",
+                  "_label": "Literal transcription"
+                }
+              ],
+              "content": "Coproduction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://data.stage.org/auth/000000000999",
+      "type": "Group",
+      "_label": "Fondation Ernst Göhner (Zoug)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300188572",
+          "type": "Type",
+          "_label": "Sponsor",
+          "referred_to_by": [
+            {
+              "type": "LinguisticObject",
+              "_label": "as appears in program",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/page/aat/300456607",
+                  "type": "Type",
+                  "_label": "Literal transcription"
+                }
+              ],
+              "content": "Avec le soutien de"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://data.stage.org/auth/124000000421",
+      "type": "Person",
+      "_label": "Caroline Bonnafous",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300026687",
+          "type": "Type",
+          "_label": "Aknowledgement",
+          "referred_to_by": [
+            {
+              "type": "LinguisticObject",
+              "_label": "as appears in program",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/page/aat/300456607",
+                  "type": "Type",
+                  "_label": "Literal transcription"
+                }
+              ],
+              "content": "Remerciements"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description"
+        }
+      ],
+      "content": "Après avoir marqué les esprits avec Les Palmiers sauvages, Séverine Chavrier retrouve l’univers de William Faulkner en adaptant librement le monumental Absalon, Absalon ! Œuvre-monde, ce roman transpose dans l’Amérique de la Guerre de Sécession un épisode biblique : le destin maudit du fils de David, marqué du sceau du fratricide et de l’inceste. Absalon, Absalon !, c’est l’ascension et la chute de Sutpen, enfant né plus bas que bas et devenu un homme assoiffé de reconnaissance sociale. Mais dans le Mississipi hanté par l’esclavage et le génocide autochtone, les rêves de gloire sont voués à l’échec. Dans ce récit à quatre voix aux accents de tragédie grecque, la metteuse en scène trouve de quoi nourrir son théâtre toujours affamé : avec un art consommé du débordement, elle électrise les mots de Faulkner tout en ménageant le mystère d’une écriture qu’elle aime passionnément. Dans un dispositif qui superpose les échelles et les temporalités, les interprètes racontent leurs personnages autant qu’ils se racontent. Hantés par les fantômes de l’enfance, ils errent dans un monde en décomposition. ",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "_label": "French"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description"
+        }
+      ],
+      "content": "After making a lasting impression with The Wild Palms, Séverine Chavrier returns to the universe of William Faulkner with a free adaptation of the monumental Absalom, Absalom! A beast of a novel, it transposes into the America of the Civil War a biblical episode: the cursed fate of David, marked by the seal of fratricide and incest. Absalom, Absalom! chronicles the rise and fall of Thomas Sutpen, a child born in poverty who becomes a man hungry for social recognition. But in a Mississippi haunted by slavery and the genocide of the natives, dreams of glory are doomed to failure. In this narrative with its four voices reminiscent of Greek tragedies, the director finds much to feed her always hungry theatre: with her characteristic sense of flair, she electrifies Faulkner’s words while preserving the mystery of a work she loves passionately. Superimposing scales and temporalities, she lets the actors tell as much about themselves as about their characters. Haunted by the ghosts of childhood, they wander a decaying world.",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "_label": "description in spanish",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description"
+        }
+      ],
+      "content": "En este espectáculo épico a varias voces, la guerra de Secesión supone un antes y un después para esta familia cuya estirpe se derrumba. Es la adaptación de la novela homónima de Faulkner donde los fantasmas conviven con los vivos.",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300389311",
+          "type": "Language",
+          "_label": "Spanish"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "_label": "the director's interview",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300192825",
+          "type": "Type",
+          "_label": "Artist's Statement"
+        }
+      ],
+      "content": "**Qu’est-ce qui vous a décidée à adapter le roman de Faulkner Absalon, Absalon ! ?**\nSéverine Chavrier\nJ’aborde régulièrement des thèmes tels que la question de l’héritage d’une génération à l’autre, les relations fraternelles, la jeunesse face à l’autorité parentale, la folie comme revanche sociale… Pour ce spectacle, le déclic est venu lorsque je me suis rendu compte que, dans mes pièces précédentes, je n’avais pas encore abordé certains sujets essentiels, notamment la question de la cohabitation, de la violence et de la légitimité de la fondation d’une nation nord-américaine.\n\n**Votre adaptation est libre et repose en partie sur l’appropriation du texte par les comédiens. Pouvez-vous nous parler de votre processus de création ?**\nPlutôt que de suivre une chronologie stricte ou de reproduire les temps forts du roman, nous explorons différentes configurations et relations entre les personnages. Notre démarche est davantage centrée sur les rapports de parole et les interactions entre les acteurs, ce qui permet une réinterprétation vivante et dynamique de l’œuvre de Faulkner. Nous avons cherché à explorer le jeu entre le récit et la scène, en mettant l’accent sur la façon dont chaque scène est racontée plusieurs fois, révélant différentes perspectives.\n\n**« Ce qui m’intéresse, c’est de comprendre comment la manière de parler d’une scène révèle la personne qui la raconte. »**\n\nJ’ai cherché à créer une expérience immersive où le public est plongé dans l’univers de Faulkner, tout en laissant place à l’interprétation et à l’émotion. Tout comme les actrices et les acteurs, je souhaite que le public trouve sa propre connexion avec l’histoire et les personnages.\n\n**Vous intégrez également des éléments de la vie des comédiennes et comédiens…**\nOui, j’intègre ces éléments biographiques pour garantir la sincérité du spectacle. J’ai choisi des artistes dont les histoires familiales ou professionnelles résonnent avec les thèmes de la pièce, comme la lutte contre la domination et l’exploitation. Je m’appuie sur leurs contributions pour construire le texte et les scènes, et j’assure le montage final en réinjectant l’essence de Faulkner dans la pièce. C’est un équilibre entre improvisation et direction artistique. Nous naviguons entre improvisation et réécriture pour créer une dramaturgie qui émerge organiquement du processus de travail. Chaque acteur apporte son interprétation et ses propres mots, ce qui enrichit la pièce et lui donne une dimension unique : le spectacle évoluerait différemment si nous travaillions avec d’autres acteurs…\n\n**Comment la complexité narrative du roman de Faulkner est-elle mise en œuvre dans votre adaptation théâtrale ? Comment abordez-vous la thématique de la domination patriarcale et économique des Blancs dans votre adaptation ?**\n\n**« Je souligne la multiplicité des narrateurs dans le roman et je recherche le poids émotionnel plutôt que la vérité factuelle dans la narration. »**\n\nJe privilégie une approche archaïque et brutale, en utilisant le maquillage et les costumes pour transformer les acteurs et en jouant avec les échelles temporelles. Mon objectif est de capturer l’essence shakespearienne de Faulkner, en mettant l’accent sur la virtuosité du jeu plutôt que sur la sophistication technique. J’essaie de mettre en lumière l’évolution des États-Unis, du bruit et de la fureur à l’essor mercantile, en montrant comment cette trajectoire écrase les individus. C’est une réflexion sur l’impact de l’histoire nationale sur les destins individuels. Je contextualise la pièce dans la guerre de Sécession et je montre comment cette domination influence les relations familiales et sociales. C’est une critique subtile de l’exploitation continue du Sud par le Nord. Dans le spectacle, la voiture représente à la fois la modernité, la liberté et l’oppression industrielle. Elle devient un lieu de travail et de confession, reflétant ainsi les rapports de pouvoir et l’exploitation de la classe ouvrière. La transformation des techniques de production de l’esclavagisme à l’industrie automobile souligne la continuité des schémas de domination économique.\n\n**L’enfance est un thème central du roman : comment se traduit-il dans votre adaptation ?**\nLe thème de l’enfance est lié chez Faulkner à l’innocence, à une forme de pureté perdue qui s’oppose à la faute et à la culpabilité. Il y a aussi la question de la mémoire et des traumatismes qui lui sont liés…\n\n**Pouvez-vous nous présenter les différents espaces scéniques et la façon dont ils s’articulent ?**\nJ’ai créé différents espaces pour représenter la maison historique, le présent du travail et l’université contemporaine.\n\n**Entretien avec Séverine Chavrier**",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "_label": "French"
+        }
+      ]
+    }
+  ]
+}

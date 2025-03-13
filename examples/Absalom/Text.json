@@ -1,0 +1,43 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/text/000000000101",
+  "type": "LinguisticObject",
+  "_label": "Absalon, Absalon!",
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Absalom, Absalom!",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "label": "English"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "carried_out_by": [
+      {
+        "id": "https://data.stage.org/auth/000000000001",
+        "type": "Person",
+        "_label": "William Faulkner",
+        "classified_as": [
+          {
+            "id": "http://id.loc.gov/vocabulary/relators/aut",
+            "type": "Type",
+            "_label": "author"
+          }
+        ]
+      }
+    ]
+  }
+}
