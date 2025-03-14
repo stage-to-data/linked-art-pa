@@ -313,7 +313,7 @@ Example:
     {
       "id": "https://vocab.getty.edu/aat/300069200",
       "type": "Type",
-      "_label": "Performances (creative events)",
+      "_label": "Performances (creative events)"
     }
   ],
   "part_of": [
@@ -364,7 +364,6 @@ Example:
       ]
     }
   ],
-
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2024-06-29T00:00:00Z",
@@ -416,7 +415,8 @@ Example:
               "content": "Théâtre"
             }
           ]
-        },
+        }
+]
 ```
 
 ---
@@ -551,7 +551,7 @@ Example:
             }
           ],
           "content": "adaptation et mise en scène"
-        },
+        }
       ],
       "classified_as": [
         {
@@ -602,11 +602,11 @@ Example:
               "_label": "character"
             }
           ],
-          "content": "Henry",
-            }
-          ]
+          "content": "Henry"
         }
       ]
+    }
+]
 
 ```
 
@@ -690,9 +690,8 @@ Example:
     "type": "TimeSpan",
     "_label": "Date",
     "begin_of_the_begin": "2024-06-29T16:00:00Z"
-    }
   }
-]
+}
 
 ```
 
@@ -730,5 +729,6 @@ Example:
         }
       ]
     }
+]
 ```
 
