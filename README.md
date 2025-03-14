@@ -60,7 +60,7 @@ Additional objects can be incorporated:
   - Extends `Activity` to include the existing `dimension` property, categorizing ticket prices and performance duration.
   - Using `used_specific_object` would require the creation of a non-existent ticket source, which is inaccurate.
   - This extension would require an evolution of **CIDOC**.  
-  - `timespan` is already used for production start and end dates (*see cookbook for examples*).
+  - `timespan` is already used for production start and end dates (*see **cookbook** for examples*).
 
 - **Language Property for Events**:  
   - Adding language at the **B (Event) level** rather than **A (Work) level** allows multilingual performances to be accurately modeled.
@@ -95,7 +95,7 @@ For profession-related vocabulary, we use the **Library of Congress** vocabulary
 
 This repository includes:
 
-- **JSON files** for *Absalon, Absalon!* (directed by Séverine Chavrier, Avignon 2024).  
+- **JSON files** for *Absalon, Absalon !* (directed by Séverine Chavrier, Avignon 2024).  
   - 🔗 [Show programme](https://festival-avignon.com/storage/document/53/349953_667c39485f230.pdf)  
 
 - **JSON files** for *Richard III* (directed by William Mesguich, Avignon OFF 2024).  
