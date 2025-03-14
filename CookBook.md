@@ -40,6 +40,8 @@ This distinction ensures precise documentation, including unforeseen changes not
 - **Season Programme** (as a `Textual` or `Digital Object`, to be developed).  
 - **Show Programme** (as a `Textual` or `Digital Object`, to be developed).  
 
+![Global classes schema](Figures-Cookbook/Global.drawio.svg)
+
 ---
 
 ## Work (A)
@@ -182,6 +184,8 @@ Example:
 }
 ```
 
+![Text class schema](Figures-Cookbook/Text.drawio.svg)
+
 When a **work (A)** is **inspired by** another, it is linked via `subject_of`, referencing the original work.  
 
 Example:  
@@ -274,6 +278,8 @@ Example:
     }
   ]
 ```
+
+![Work class schema](Figures-Cookbook/A.drawio.svg)
 
 ---
 
@@ -644,6 +650,8 @@ Example:
 
 ```
 
+![Production class schema](Figures-Cookbook/B.drawio.svg)
+
 ---
 
 ## Show (C)
@@ -687,6 +695,8 @@ Example:
 ]
 
 ```
+
+![Show class schema](Figures-Cookbook/C.drawio.svg)
 
 ---
 
