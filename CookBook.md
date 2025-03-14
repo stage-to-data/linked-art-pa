@@ -59,6 +59,65 @@ This allows differentiation between **adaptations and re-creations** over time.
 Example:  
 > The work *Absalon, Absalon!* conceived by **Séverine Chavrier** in **2024**.
 
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/works/000000000001",
+  "type": "PropositionalObject",
+  "_label": "The show of Absalon, Absalon! as conceived by Séverine Chavrier",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300387357",
+      "type": "Type",
+      "_label": "works (general, creative)"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Title"
+        }
+      ],
+      "content": "Absalon, Absalon !",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "label": "French"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "carried_out_by": [
+      {
+        "id": "https://data.stage.org/auth/000000000001",
+        "type": "Person",
+        "_label": "Séverine Chavrier",
+        "classified_as": [
+          {
+            "id": "http://id.loc.gov/vocabulary/relators/drt",
+            "type": "Type",
+            "_label": "director"
+          }
+        ]
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2024",
+      "begin_of_the_begin": "2024-01-01T00:00:00Z"
+          }
+    }
+}
+```
+
+
 ---
 
 ### Re-Staging and Re-Enactment
@@ -77,15 +136,144 @@ A text is a `LinguisticObject`, following the same structure as **Work (A)**, wi
 Example:  
 > The text entitled *Absalom, Absalom!* written by **William Faulkner**.
 
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/text/000000000101",
+  "type": "LinguisticObject",
+  "_label": "Absalon, Absalon!",
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Absalom, Absalom!",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "label": "English"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "carried_out_by": [
+      {
+        "id": "https://data.stage.org/auth/000000000001",
+        "type": "Person",
+        "_label": "William Faulkner",
+        "classified_as": [
+          {
+            "id": "http://id.loc.gov/vocabulary/relators/aut",
+            "type": "Type",
+            "_label": "author"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
 When a **work (A)** is **inspired by** another, it is linked via `subject_of`, referencing the original work.  
 
 Example:  
-> The play *Richard III*, staged by **William Mesguish** in **2024**.
+> The play *Richard III*, staged in French by **William Mesguish** in **2024**.
+
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/works/000000000001",
+  "type": "PropositionalObject",
+  "_label": "The show of Richard III as conceived by William Mesguish",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300387357",
+      "type": "Type",
+      "_label": "works (general, creative)"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Title"
+        }
+      ],
+      "content": "Richard III",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "label": "French"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "carried_out_by": [
+      {
+        "id": "https://data.stage.org/auth/000000000001",
+        "type": "Person",
+        "_label": "William Mesguish",
+        "classified_as": [
+          {
+            "id": "http://id.loc.gov/vocabulary/relators/drt",
+            "type": "Type",
+            "_label": "director"
+          }
+        ]
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2024",
+      "begin_of_the_begin": "2024-01-01T00:00:00Z"
+    }
+  },
+  "subject_of": [
+    {
+      "id": "ttps://data.stage.org/text/000000000101 (OFF_text.json)",
+      "type": "LinguisticObject",
+      "_label": "Shakespeare Richard III"
+    }
+  ]
+}
+
+```
 
 For adaptations, the `classified_as` property qualifies the relationship.  
 
 Example:  
 > The novel *Absalon, Absalon!* staged by **Séverine Chavrier** in **2024** as an **adaptation**.
+
+```json
+"classified_as": [
+    {
+      "id": "https://data.stage.org/text/000000000101 (text.json)",
+      "type": "LinguisticObject",
+      "_label": "Absalon de Faulkner",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300410356",
+          "type": "Type",
+          "_label": "Adaptation"
+        }
+      ]
+    }
+  ]
+```
 
 ---
 
@@ -109,6 +297,77 @@ A **production** is modeled as an `Activity`, similar to an **exhibition** in th
 Example:  
 > The production of *Absalon, Absalon!* by **Séverine Chavrier**, presented in **July 2024** at **La Fabrica (Avignon Festival)**.
 
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/prod/000000000001",
+  "type": "Activity",
+  "_label": "Absalon, Absalon in Avignon (Season)",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300069200",
+      "type": "Type",
+      "_label": "Performances (creative events)",
+    }
+  ],
+  "part_of": [
+    {
+      "id": "https://data.stage.org/festivals/000000000001",
+      "type": "Activity",
+      "_label": "78e Festival Avignon 2024"
+    }
+  ],
+  "influenced_by": [
+    {
+      "id": "https://data.stage.org/works/000000000001 (A.json)",
+      "type": "PropositionalObject",
+      "_label": "The show of Absalon, Absalon! as conceived by Séverine Chavrier"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Title"
+        }
+      ],
+      "content": "Absalon, Absalon !",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "_label": "French"
+        }
+      ]
+    }
+  ],
+  "took_place_at": [
+    {
+      "id": "https://data.stage.org/auth/100000000001",
+      "type": "Place",
+      "_label": "La Fabrica",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300121919",
+          "type": "Type",
+          "_label": "performing arts structures"
+        }
+      ]
+    }
+  ],
+
+  "timespan": {
+    "type": "TimeSpan",
+    "begin_of_the_begin": "2024-06-29T00:00:00Z",
+    "end_of_the_end": "2024-07-07T00:00:00Z"
+  }
+}
+
+```
+
 ---
 
 ### Relationship: Work ↔ Production
@@ -122,9 +381,6 @@ The **Production (B)** refers to the **Work (A)** via `influenced_by`.
 - **Venues**: Specified via `took_place_at`, which may include stage details.
 - **Festivals**: Linked via `part_of`, referencing the **Festival object**.
 
-Example:  
-> The production of *Absalon, Absalon!* is based on a work conceived by **Séverine Chavrier**.
-
 ---
 
 ### Genre
@@ -132,7 +388,30 @@ The **genre** is stored separately as it comes from external sources (*e.g., pro
 It is **not** included in **Work (A)** because it may **vary by venue**.
 
 Example:  
-> *Absalon, Absalon!* is classified as **Theatre (genre)** based on the programme.
+> *Absalon, Absalon!* is classified as **Theatre (genre)** based on the programme with the literal transcription "Théâtre".
+
+```json
+"classified_as": [
+        {
+          "id": "https://vocab.getty.edu/aat/300417582",
+          "type": "Type",
+          "_label": "Theater (genre)",
+          "referred_to_by": [
+            {
+              "type": "LinguisticObject",
+              "_label": "genre as appears in program",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/page/aat/300456607",
+                  "type": "Type",
+                  "_label": "Literal transcription"
+                }
+              ],
+              "content": "Théâtre"
+            }
+          ]
+        },
+```
 
 ---
 
@@ -142,7 +421,102 @@ The **ticket price** is included via the `dimension` property:
 - `unit: Currency`
 
 Example:  
-> The ticket price for *Absalon, Absalon!* was **€25**.
+> Ticket prices for one performance in euros.
+
+```json
+"dimension": [
+  {
+    "type": "MonetaryAmount",
+    "classified_as": [
+      {
+        "id": "http://vocab.getty.edu/aat/300417247",
+        "type": "Type",
+        "_label": "List Prices"
+      }
+    ],
+    "value": "23",
+    "currency": {
+      "id": "https://vocab.getty.edu/aat/300425170",
+      "type": "Currency",
+      "_label": "Euros"
+    },
+    "referred_to_by": [
+      {
+        "type": "LinguisticObject",
+        "_label": "price category",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/page/aat/300435423",
+            "type": "Type",
+            "_label": "Literal transcription"
+          }
+        ],
+        "content": "plein"
+      }
+    ]
+  },
+  {
+    "type": "MonetaryAmount",
+    "classified_as": [
+      {
+        "id": "http://vocab.getty.edu/aat/300417247", // ou admission ticket : http://vocab.getty.edu/page/aat/300133073
+        "type": "Type",
+        "_label": "List Prices"
+      }
+    ],
+    "value": "16",
+    "currency": {
+      "id": "https://vocab.getty.edu/aat/300425170",
+      "type": "Currency",
+      "_label": "Euros"
+    },
+    "referred_to_by": [
+      {
+        "type": "LinguisticObject",
+        "_label": "price category",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/page/aat/300435423",
+            "type": "Type",
+            "_label": "Literal transcription"
+          }
+        ],
+        "content": "abonné"
+      }
+    ]
+  },
+  {
+    "type": "MonetaryAmount",
+    "classified_as": [
+      {
+        "id": "http://vocab.getty.edu/aat/300417247", // ou admission ticket : http://vocab.getty.edu/page/aat/300133073
+        "type": "Type",
+        "_label": "List Prices"
+      }
+    ],
+    "value": "18",
+    "currency": {
+      "id": "https://vocab.getty.edu/aat/300425170",
+      "type": "Currency",
+      "_label": "Euros"
+    },
+    "referred_to_by": [
+      {
+        "type": "LinguisticObject",
+        "_label": "price category",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/page/aat/300435423",
+            "type": "Type",
+            "_label": "Literal transcription"
+          }
+        ],
+        "content": "reduit"
+      }
+    ]
+  }
+],
+```
 
 ---
 
@@ -153,6 +527,83 @@ Example:
 > **Séverine Chavrier** is both **director** and **adapter** of the performance.  
 > **Pierre Artières-Glissant** plays **Henry** in *Absalon, Absalon!*.
 
+```json
+"carried_out_by": [
+    {
+      "id": "https://data.stage.org/auth/000000000001",
+      "type": "Person",
+      "_label": "Séverine Chavrier",
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "_label": "role as appears in doc",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300435423",
+              "type": "Type",
+              "_label": "Literal transcription"
+            }
+          ],
+          "content": "adaptation et mise en scène"
+        },
+      ],
+      "classified_as": [
+        {
+          "id": "http://id.loc.gov/vocabulary/relators/drt",
+          "type": "Type",
+          "_label": "director"
+        },
+        {
+          "id": "http://id.loc.gov/vocabulary/relators/adp",
+          "type": "Type",
+          "_label": "adapter"
+        }
+      ]
+    },
+    {
+      "id": "https://data.stage.org/auth/000000000009",
+      "type": "Person",
+      "_label": "Pierre Artières-Glissant",
+      "classified_as": [
+        {
+          "id": "http://id.loc.gov/vocabulary/relators/act",
+          "type": "Type",
+          "_label": "actor"
+        }
+      ],
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "_label": "role as appears in doc",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300435423",
+              "type": "Type",
+              "_label": "Literal transcription"
+            }
+          ],
+          "content": "avec"
+        }
+      ],
+      "has_character": [
+        {
+          "type": "LinguisticObject",
+          "_label": "name of the character",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300410267",
+              "type": "Type",
+              "_label": "character"
+            }
+          ],
+          "content": "Henry",
+            }
+          ]
+        }
+      ]
+
+```
+
 ---
 
 ### Funders & Supporters
@@ -160,6 +611,38 @@ Sponsorships and acknowledgments are recorded in `participant`, classified by **
 
 Example:  
 > The **Fondation Ernst Göhner** sponsors the production.
+
+```json
+"participant": [
+{
+      "id": "https://data.stage.org/auth/000000000999",
+      "type": "Group",
+      "_label": "Fondation Ernst Göhner (Zoug)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300188572",
+          "type": "Type",
+          "_label": "Sponsor",
+          "referred_to_by": [
+            {
+              "type": "LinguisticObject",
+              "_label": "as appears in program",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/page/aat/300456607",
+                  "type": "Type",
+                  "_label": "Literal transcription"
+                }
+              ],
+              "content": "Avec le soutien de"
+            }
+          ]
+        }
+      ]
+    }
+]
+
+```
 
 ---
 
@@ -175,6 +658,36 @@ A **specific performance date** is modeled as a **separate Activity**, linked to
 Example:  
 > The *Absalon, Absalon!* performance on **29 June 2024 at 16:00**, as part of the **Avignon season**.
 
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/shows/000000000001",
+  "type": "Activity",
+  "_label": "Specific Date for Absalon, Absalon ",
+  "part_of": [
+    {
+      "id": "https://data.stage.org/prod/000000000001",
+      "type": "Activity",
+      "_label": "Absalon, Absalon in Avignon (Season) (B.json)"
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/page/aat/300XXXXXX",
+      "type": "Type",
+      "_label": "performance (performing arts show) to be defined in Getty"
+    }
+  ],
+  "timespan": {
+    "type": "TimeSpan",
+    "_label": "Date",
+    "begin_of_the_begin": "2024-06-29T16:00:00Z"
+    }
+  }
+]
+
+```
+
 ---
 
 ## Sources & Citations
@@ -185,3 +698,27 @@ Example:
 
 Example:  
 > The genre of *Absalon, Absalon!* ("Théâtre") is cited from the **show programme** and linked via **IIIF**.
+
+```json
+"subject_of": [
+    {
+      "id": "https://data.stage.org/programs/000000000001",
+      "type": "LinguisticObject",
+      "_label": "Absalon show programme",
+      "classified_as": [
+        {
+          "id": "https://vocab.getty.edu/aat/300027216",
+          "type": "Type",
+          "_label": "playbills",
+          "classified_as": [
+            {
+              "id": "https://vocab.getty.edu/aat/300311936",
+              "type": "Type",
+              "_label": "primary source"
+            }
+          ]
+        }
+      ]
+    }
+```
+
