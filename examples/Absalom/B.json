@@ -202,7 +202,7 @@
           "content": "avec"
         }
       ],
-      "plays": [
+      "has_character": [
         {
           "type": "LinguisticObject",
           "_label": "name of the character",
