@@ -459,7 +459,7 @@ Example:
     "type": "MonetaryAmount",
     "classified_as": [
       {
-        "id": "http://vocab.getty.edu/aat/300417247", // ou admission ticket : http://vocab.getty.edu/page/aat/300133073
+        "id": "http://vocab.getty.edu/aat/300417247", 
         "type": "Type",
         "_label": "List Prices"
       }
@@ -489,7 +489,7 @@ Example:
     "type": "MonetaryAmount",
     "classified_as": [
       {
-        "id": "http://vocab.getty.edu/aat/300417247", // ou admission ticket : http://vocab.getty.edu/page/aat/300133073
+        "id": "http://vocab.getty.edu/aat/300417247", 
         "type": "Type",
         "_label": "List Prices"
       }
