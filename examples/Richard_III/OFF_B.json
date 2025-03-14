@@ -281,6 +281,98 @@
       }
     }
   },
+  "dimension": [
+  {
+    "type": "MonetaryAmount",
+    "classified_as": [
+      {
+        "id": "http://vocab.getty.edu/aat/300417247",
+        "type": "Type",
+        "_label": "List Prices"
+      }
+    ],
+    "value": "23",
+    "currency": {
+      "id": "https://vocab.getty.edu/aat/300425170",
+      "type": "Currency",
+      "_label": "Euros"
+    },
+    "referred_to_by": [
+      {
+        "type": "LinguisticObject",
+        "_label": "price category",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/page/aat/300435423",
+            "type": "Type",
+            "_label": "Literal transcription"
+          }
+        ],
+        "content": "plein"
+      }
+    ]
+  },
+  {
+    "type": "MonetaryAmount",
+    "classified_as": [
+      {
+        "id": "http://vocab.getty.edu/aat/300417247",
+        "type": "Type",
+        "_label": "List Prices"
+      }
+    ],
+    "value": "16",
+    "currency": {
+      "id": "https://vocab.getty.edu/aat/300425170",
+      "type": "Currency",
+      "_label": "Euros"
+    },
+    "referred_to_by": [
+      {
+        "type": "LinguisticObject",
+        "_label": "price category",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/page/aat/300435423",
+            "type": "Type",
+            "_label": "Literal transcription"
+          }
+        ],
+        "content": "abonné"
+      }
+    ]
+  },
+  {
+    "type": "MonetaryAmount",
+    "classified_as": [
+      {
+        "id": "http://vocab.getty.edu/aat/300417247",
+        "type": "Type",
+        "_label": "List Prices"
+      }
+    ],
+    "value": "18",
+    "currency": {
+      "id": "https://vocab.getty.edu/aat/300425170",
+      "type": "Currency",
+      "_label": "Euros"
+    },
+    "referred_to_by": [
+      {
+        "type": "LinguisticObject",
+        "_label": "price category",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/page/aat/300435423",
+            "type": "Type",
+            "_label": "Literal transcription"
+          }
+        ],
+        "content": "reduit"
+      }
+    ]
+  }
+],
   "subject_of": [
     {
       "id": "Manifest IIIF",
