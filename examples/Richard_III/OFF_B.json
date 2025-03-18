@@ -84,13 +84,6 @@
       "_label": "Festival Avignon OFF 2024"
     }
   ],
-  "language": [
-    {
-      "id": "http://vocab.getty.edu/aat/300388306",
-      "type": "Language",
-      "label": "French"
-    }
-  ],
   "influenced_by": [
     {
       "id": "https://data.stage.org/works/000000000001 (OFF_A.json)",
