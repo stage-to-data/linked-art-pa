@@ -58,8 +58,7 @@
       "id": "https://data.stage.org/text/000000000101 (text.json)",
       "type": "LinguisticObject",
       "_label": "Absalon de Faulkner",
-      "classified_as": 
-      [
+      "classified_as": [
         {
           "id": "http://vocab.getty.edu/page/aat/300410356",
           "type": "Type",
