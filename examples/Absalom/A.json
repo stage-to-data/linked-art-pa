@@ -30,8 +30,15 @@
       ]
     }
   ],
-  "created_by": {
-    "type": "Creation",
+  "produced_by": {
+    "type": "Production",
+    "technique" : [
+      {
+        "id":"http://vocab.getty.edu/page/aat/300404387",
+        "type": "Type",
+        "_label": "Creating"
+      }
+    ],
     "carried_out_by": [
       {
         "id": "https://data.stage.org/auth/000000000001",
