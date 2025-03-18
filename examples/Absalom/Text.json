@@ -27,9 +27,9 @@
     "type": "Production",
     "technique" : [
       {
-        "id":"http://vocab.getty.edu/page/aat/300404387",
+        "id":"http://vocab.getty.edu/page/aat/300054698",
         "type": "Type",
-        "_label": "Creating"
+        "_label": "Writing"
       }
     ],
     "carried_out_by": [
