@@ -25,6 +25,13 @@
   ],
   "produced_by": {
     "type": "Production",
+    "technique" : [
+      {
+        "id":"",
+        "type": "Type",
+        "_label": "Creating"
+      }
+    ],
     "carried_out_by": [
       {
         "id": "https://data.stage.org/auth/000000000001",
