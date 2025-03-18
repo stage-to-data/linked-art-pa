@@ -231,8 +231,15 @@ Example:
       ]
     }
   ],
-  "created_by": {
-    "type": "Creation",
+  "produced_by": {
+    "type": "Production",
+    "technique" : [
+      {
+        "id":"http://vocab.getty.edu/page/aat/300404387",
+        "type": "Type",
+        "_label": "Creating"
+      }
+    ],
     "carried_out_by": [
       {
         "id": "https://data.stage.org/auth/000000000001",
@@ -247,17 +254,46 @@ Example:
         ]
       }
     ],
-    "timespan": {
+    "timespan": 
+    {
       "type": "TimeSpan",
       "_label": "2024",
       "begin_of_the_begin": "2024-01-01T00:00:00Z"
-    }
+    },
+    "influenced_by": [
+      {
+        "id": "ttps://data.stage.org/text/000000000101 (OFF_text.json)",
+        "type": "LinguisticObject",
+        "_label": "Shakespeare Richard III"
+      }
+    ]
   },
+  "language": [
+    {
+      "id": "http://vocab.getty.edu/aat/300388306",
+      "type": "Language",
+      "label": "French"
+    }
+  ],
   "subject_of": [
     {
-      "id": "ttps://data.stage.org/text/000000000101 (OFF_text.json)",
-      "type": "LinguisticObject",
-      "_label": "Shakespeare Richard III"
+      "id": "Manifest IIIF",
+      "type": "DigitalObject",
+      "_label": "Festival Avignon OFF 2024 General Program",
+      "classified_as": [
+        {
+          "id": "https://vocab.].edu/aat/300027217",
+          "type": "Type",
+          "_label": "theater program",
+          "classified_as": [
+            {
+              "id": "https://vocab.getty.edu/aat/300311936",
+              "type": "Type",
+              "_label": "primary source"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
