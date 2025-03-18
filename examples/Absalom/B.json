@@ -103,13 +103,6 @@
         }
       ],
       "content": "Absalon, Absalon !",
-      "language": [
-        {
-          "id": "http://vocab.getty.edu/aat/300388306",
-          "type": "Language",
-          "_label": "French"
-        }
-      ]
     }
   ],
   "took_place_at": [
