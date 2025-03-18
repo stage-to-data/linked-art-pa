@@ -27,7 +27,7 @@
     "type": "Production",
     "technique" : [
       {
-        "id":"",
+        "id":"http://vocab.getty.edu/page/aat/300404387",
         "type": "Type",
         "_label": "Creating"
       }
