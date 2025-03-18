@@ -56,7 +56,7 @@ This allows differentiation between **adaptations and re-creations** over time.
 ### Key properties:
 - `classified_as`
 - `identified_by`
-- `created_by`
+- `produced_by`
 
 Example:  
 > The work *Absalon, Absalon!* conceived by **Séverine Chavrier** in **2024**.
@@ -85,17 +85,17 @@ Example:
         }
       ],
       "content": "Absalon, Absalon !",
-      "language": [
-        {
-          "id": "http://vocab.getty.edu/aat/300388306",
-          "type": "Language",
-          "label": "French"
-        }
-      ]
     }
   ],
-  "created_by": {
-    "type": "Creation",
+  "produced_by": {
+    "type": "Production",
+    "technique" : [
+      {
+        "id": "http://vocab.getty.edu/page/aat/300404387",
+        "type": "Type",
+        "_label": "Creating"
+      }
+    ],
     "carried_out_by": [
       {
         "id": "https://data.stage.org/auth/000000000001",
@@ -107,15 +107,16 @@ Example:
             "type": "Type",
             "_label": "director"
           }
-        ]
-      }
-    ],
-    "timespan": {
-      "type": "TimeSpan",
-      "_label": "2024",
-      "begin_of_the_begin": "2024-01-01T00:00:00Z"
-          }
+        ],
     }
+  ],
+    "timespan": 
+      {
+        "type": "TimeSpan",
+        "_label": "2024",
+        "begin_of_the_begin": "2024-01-01T00:00:00Z"
+        }
+      }
 }
 ```
 
@@ -133,7 +134,7 @@ Directors often **re-stage** previous works after a significant period. Each re-
 Many performing arts works are **interpretations or adaptations** of texts (*plays, novels, etc.*).  
 A text is a `LinguisticObject`, following the same structure as **Work (A)**, with at least:
 - `identified_by`
-- `created_by`
+- `produced_by`
 
 Example:  
 > The text entitled *Absalom, Absalom!* written by **William Faulkner**.
@@ -164,8 +165,15 @@ Example:
       ]
     }
   ],
-  "created_by": {
-    "type": "Creation",
+  "produced_by": {
+    "type": "Production",
+    "technique" : [
+      {
+        "id":"http://vocab.getty.edu/page/aat/300054698",
+        "type": "Type",
+        "_label": "Writing"
+      }
+    ],
     "carried_out_by": [
       {
         "id": "https://data.stage.org/auth/000000000001",
@@ -184,9 +192,8 @@ Example:
 }
 ```
 
-![Text class schema](Figures-Cookbook/Text.drawio.svg)
 
-When a **work (A)** is **inspired by** another, it is linked via `subject_of`, referencing the original work.  
+When a **work (A)** is **inspired by** another, it is linked via `influenced_by`, referencing the original work.  
 
 Example:  
 > The play *Richard III*, staged in French by **William Mesguish** in **2024**.
@@ -279,7 +286,6 @@ Example:
   ]
 ```
 
-![Work class schema](Figures-Cookbook/A.drawio.svg)
 
 ---
 
