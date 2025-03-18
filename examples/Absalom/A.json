@@ -51,6 +51,20 @@
             "_label": "director"
           }
         ],
+    "influenced_by": [
+      {
+      "id": "https://data.stage.org/text/000000000101 (text.json)",
+      "type": "LinguisticObject",
+      "_label": "Absalon de Faulkner",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300410356",
+          "type": "Type",
+          "_label": "Adaptation"
+        }
+      ]
+    }
+  ],
     "timespan": 
       {
         "type": "TimeSpan",
@@ -60,6 +74,13 @@
       }
     ]
   },
+  "language": [
+    {
+      "id": "http://vocab.getty.edu/aat/300388306",
+      "type": "Language",
+      "label": "French"
+    }
+  ],
   "subject_of": [
     {
       "id": "https://data.stage.org/programs/000000000001",
@@ -77,18 +98,6 @@
               "_label": "primary source"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "https://data.stage.org/text/000000000101 (text.json)",
-      "type": "LinguisticObject",
-      "_label": "Absalon de Faulkner",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/page/aat/300410356",
-          "type": "Type",
-          "_label": "Adaptation"
         }
       ]
     }
