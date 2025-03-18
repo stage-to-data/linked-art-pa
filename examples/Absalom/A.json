@@ -51,14 +51,14 @@
             "_label": "director"
           }
         ],
-        "timespan": 
-          {
-          "type": "TimeSpan",
-          "_label": "2024",
-          "begin_of_the_begin": "2024-01-01T00:00:00Z"
-          }
+    "timespan": 
+      {
+        "type": "TimeSpan",
+        "_label": "2024",
+        "begin_of_the_begin": "2024-01-01T00:00:00Z"
         }
-      ]
+      }
+    ]
   },
   "subject_of": [
     {
