@@ -59,7 +59,7 @@ This allows differentiation between **adaptations and re-creations** over time.
 - `produced_by`
 
 Example:  
-> The work *Absalon, Absalon!* conceived by **Séverine Chavrier** in **2024**.
+> The work *Absalon, Absalon!* conceived by the director **Séverine Chavrier** in **2024** in French.
 
 ```json
 {
@@ -85,38 +85,53 @@ Example:
         }
       ],
       "content": "Absalon, Absalon !",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "label": "French"
+        }
+      ]
     }
   ],
-  "produced_by": {
-    "type": "Production",
-    "technique" : [
-      {
-        "id": "http://vocab.getty.edu/page/aat/300404387",
-        "type": "Type",
-        "_label": "Creating"
-      }
-    ],
-    "carried_out_by": [
-      {
-        "id": "https://data.stage.org/auth/000000000001",
-        "type": "Person",
-        "_label": "Séverine Chavrier",
-        "classified_as": [
-          {
-            "id": "http://id.loc.gov/vocabulary/relators/drt",
-            "type": "Type",
-            "_label": "director"
-          }
-        ],
-    }
-  ],
-    "timespan": 
-      {
+  "produced_by": [
+    {
+      "type": "Production",
+      "technique": [
+        {
+          "id":"http://vocab.getty.edu/page/aat/300404387",
+          "type": "Type",
+          "_label": "Creating"
+        }
+      ],
+      "carried_out_by": [
+        {
+          "id": "https://data.stage.org/auth/000000000001",
+          "type": "Person",
+          "_label": "Séverine Chavrier",
+          "classified_as": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/drt",
+              "type": "Type",
+              "_label": "director"
+            }
+          ]
+        }
+      ],
+      "timespan": {
         "type": "TimeSpan",
         "_label": "2024",
         "begin_of_the_begin": "2024-01-01T00:00:00Z"
+      },
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "label": "French"
         }
-      }
+      ]
+    }
+  ]
 }
 ```
 
@@ -199,104 +214,7 @@ Example:
 > The play *Richard III*, staged in French by **William Mesguish** in **2024**.
 
 ```json
-{
-  "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://data.stage.org/works/000000000001",
-  "type": "PropositionalObject",
-  "_label": "The show of Richard III as conceived by William Mesguish",
-  "classified_as": [
-    {
-      "id": "https://vocab.getty.edu/aat/300387357",
-      "type": "Type",
-      "_label": "works (general, creative)"
-    }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Title"
-        }
-      ],
-      "content": "Richard III",
-      "language": [
-        {
-          "id": "http://vocab.getty.edu/aat/300388306",
-          "type": "Language",
-          "label": "French"
-        }
-      ]
-    }
-  ],
-  "produced_by": {
-    "type": "Production",
-    "technique" : [
-      {
-        "id":"http://vocab.getty.edu/page/aat/300404387",
-        "type": "Type",
-        "_label": "Creating"
-      }
-    ],
-    "carried_out_by": [
-      {
-        "id": "https://data.stage.org/auth/000000000001",
-        "type": "Person",
-        "_label": "William Mesguish",
-        "classified_as": [
-          {
-            "id": "http://id.loc.gov/vocabulary/relators/drt",
-            "type": "Type",
-            "_label": "director"
-          }
-        ]
-      }
-    ],
-    "timespan": 
-    {
-      "type": "TimeSpan",
-      "_label": "2024",
-      "begin_of_the_begin": "2024-01-01T00:00:00Z"
-    },
-    "influenced_by": [
-      {
-        "id": "ttps://data.stage.org/text/000000000101 (OFF_text.json)",
-        "type": "LinguisticObject",
-        "_label": "Shakespeare Richard III"
-      }
-    ]
-  },
-  "language": [
-    {
-      "id": "http://vocab.getty.edu/aat/300388306",
-      "type": "Language",
-      "label": "French"
-    }
-  ],
-  "subject_of": [
-    {
-      "id": "Manifest IIIF",
-      "type": "DigitalObject",
-      "_label": "Festival Avignon OFF 2024 General Program",
-      "classified_as": [
-        {
-          "id": "https://vocab.].edu/aat/300027217",
-          "type": "Type",
-          "_label": "theater program",
-          "classified_as": [
-            {
-              "id": "https://vocab.getty.edu/aat/300311936",
-              "type": "Type",
-              "_label": "primary source"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+to do
 
 ```
 
@@ -306,20 +224,20 @@ Example:
 > The novel *Absalon, Absalon!* staged by **Séverine Chavrier** in **2024** as an **adaptation**.
 
 ```json
-"classified_as": [
-    {
-      "id": "https://data.stage.org/text/000000000101 (text.json)",
-      "type": "LinguisticObject",
-      "_label": "Absalon de Faulkner",
-      "classified_as": [
+"influenced_by": [
         {
-          "id": "http://vocab.getty.edu/page/aat/300410356",
-          "type": "Type",
-          "_label": "Adaptation"
+          "id": "https://data.stage.org/text/000000000101 (text.json)",
+          "type": "LinguisticObject",
+          "_label": "Absalon de Faulkner",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300410356",
+              "type": "Type",
+              "_label": "Adaptation"
+            }
+          ]
         }
       ]
-    }
-  ]
 ```
 
 
@@ -743,7 +661,7 @@ Example:
 
 ## Sources & Citations
 
-- Performance details should link to **primary sources** (`subject_of`).
+- Performance details should link to **primary sources** (`attributed_by`).
 - Exact transcriptions from sources use **`referred_to_by`**.
 - Visual materials (**stage design photos**) use `representation`.
 
@@ -751,16 +669,14 @@ Example:
 > The genre of *Absalon, Absalon!* ("Théâtre") is cited from the **show programme** and linked via **IIIF**.
 
 ```json
-"subject_of": [
+"attributed_by": [
     {
-      "id": "https://data.stage.org/programs/000000000001",
-      "type": "LinguisticObject",
-      "_label": "Absalon show programme",
-      "classified_as": [
+      "type": "AttributeAssignment",
+      "identified_by": [
         {
-          "id": "https://vocab.getty.edu/aat/300027216",
           "type": "Type",
-          "_label": "playbills",
+          "id": "https://vocab.getty.edu/aat/300027216",
+          "_label": "show programme",
           "classified_as": [
             {
               "id": "https://vocab.getty.edu/aat/300311936",
@@ -769,8 +685,21 @@ Example:
             }
           ]
         }
+      ],
+      "assigned": [
+        {
+          "type": "LinguisticObject",
+          "id": "https://data.stage.org/programs/000000000001",
+          "_label": "Absalon show programme"
+        }
+      ],
+      "carried_out_by": [
+        {
+          "id": "https://data.stage.org/festivalavignon",
+          "type": "Group",
+          "_label": "Festival d'Avignon"
+        }
       ]
     }
-]
-```
+  ]
 
