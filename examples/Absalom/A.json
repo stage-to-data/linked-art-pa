@@ -30,66 +30,65 @@
       ]
     }
   ],
-  "produced_by": {
-    "type": "Production",
-    "technique" : [
-      {
-        "id":"http://vocab.getty.edu/page/aat/300404387",
-        "type": "Type",
-        "_label": "Creating"
-      }
-    ],
-    "carried_out_by": [
-      {
-        "id": "https://data.stage.org/auth/000000000001",
-        "type": "Person",
-        "_label": "Séverine Chavrier",
-        "classified_as": [
-          {
-            "id": "http://id.loc.gov/vocabulary/relators/drt",
-            "type": "Type",
-            "_label": "director"
-          }
-        ]
-      }
-    ],
-    "influenced_by": [
+  "produced_by": [
     {
-      "id": "https://data.stage.org/text/000000000101 (text.json)",
-      "type": "LinguisticObject",
-      "_label": "Absalon de Faulkner",
-      "classified_as": [
+      "type": "Production",
+      "technique": [
         {
-          "id": "http://vocab.getty.edu/page/aat/300410356",
+          "id":"http://vocab.getty.edu/page/aat/300404387",
           "type": "Type",
-          "_label": "Adaptation"
+          "_label": "Creating"
+        }
+      ],
+      "carried_out_by": [
+        {
+          "id": "https://data.stage.org/auth/000000000001",
+          "type": "Person",
+          "_label": "Séverine Chavrier",
+          "classified_as": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/drt",
+              "type": "Type",
+              "_label": "director"
+            }
+          ]
+        }
+      ],
+      "influenced_by": [
+        {
+          "id": "https://data.stage.org/text/000000000101 (text.json)",
+          "type": "LinguisticObject",
+          "_label": "Absalon de Faulkner",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300410356",
+              "type": "Type",
+              "_label": "Adaptation"
+            }
+          ]
+        }
+      ],
+      "timespan": {
+        "type": "TimeSpan",
+        "_label": "2024",
+        "begin_of_the_begin": "2024-01-01T00:00:00Z"
+      },
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "label": "French"
         }
       ]
     }
   ],
-    "timespan": 
-      {
-        "type": "TimeSpan",
-        "_label": "2024",
-        "begin_of_the_begin": "2024-01-01T00:00:00Z"
-        }
-      },
-  "language": [
+  "attributed_by": [
     {
-      "id": "http://vocab.getty.edu/aat/300388306",
-      "type": "Language",
-      "label": "French"
-    }
-  ],
-  "subject_of": [
-    {
-      "id": "https://data.stage.org/programs/000000000001",
-      "type": "LinguisticObject",
-      "_label": "Absalon show programme",
-      "classified_as": [
+      "type": "AttributeAssignment",
+      "identified_by": [
         {
-          "id": "https://vocab.getty.edu/aat/300027216",
           "type": "Type",
+          "id": "https://vocab.getty.edu/aat/300027216",
           "_label": "show programme",
           "classified_as": [
             {
@@ -98,6 +97,20 @@
               "_label": "primary source"
             }
           ]
+        }
+      ],
+      "assigned": [
+        {
+          "type": "LinguisticObject",
+          "id": "https://data.stage.org/programs/000000000001",
+          "_label": "Absalon show programme"
+        }
+      ],
+      "carried_out_by": [
+        {
+          "id": "https://data.stage.org/festivalavignon",
+          "type": "Group",
+          "_label": "Festival d'Avignon"
         }
       ]
     }
