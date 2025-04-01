@@ -22,16 +22,14 @@
     "_label": "Date",
     "begin_of_the_begin": "2024-06-29T16:00:00Z"
   },
-  "subject_of": [
+  "attributed_by": [
     {
-      "id": "https://data.stage.org/programs/000000000001",
-      "type": "LinguisticObject",
-      "_label": "Absalon show programme",
-      "classified_as": [
+      "type": "AttributeAssignment",
+      "identified_by": [
         {
-          "id": "https://vocab.getty.edu/aat/300027216",
           "type": "Type",
-          "_label": "playbills",
+          "id": "https://vocab.getty.edu/aat/300027216",
+          "_label": "show programme",
           "classified_as": [
             {
               "id": "https://vocab.getty.edu/aat/300311936",
@@ -40,7 +38,22 @@
             }
           ]
         }
+      ],
+      "assigned": [
+        {
+          "type": "LinguisticObject",
+          "id": "https://data.stage.org/programs/000000000001",
+          "_label": "Absalon show programme"
+        }
+      ],
+      "carried_out_by": [
+        {
+          "id": "https://data.stage.org/festivalavignon",
+          "type": "Group",
+          "_label": "Festival d'Avignon"
+        }
       ]
     }
   ]
 }
+
