@@ -340,7 +340,7 @@ Example:
         }
       ]
     }
-],
+  ],
   "took_place_at": [
     {
       "id": "https://data.stage.org/auth/100000000001",
@@ -548,7 +548,7 @@ For characters we suggest a new property : portrayed
                   "content": "avec"
                 }
               ],
-"portrayed": [
+              "portrayed": [
                 {
                   "type": "LinguisticObject",
                   "_label": "name of the character",
@@ -560,6 +560,15 @@ For characters we suggest a new property : portrayed
                     }
                   ],
                   "content": "Henry",
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+            
 
 
 ```
