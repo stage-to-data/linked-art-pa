@@ -338,7 +338,9 @@ Example:
             }
           ]
         }
-      ],
+      ]
+    }
+],
   "took_place_at": [
     {
       "id": "https://data.stage.org/auth/100000000001",
@@ -407,8 +409,252 @@ Example:
         }
 ]
 ```
+---
+
+### Roles
+Each **person or organization** involved is listed in `produced_by`.
+
+Example:  
+> **Séverine Chavrier** is both **director** and **adapter** of the performance.  
+
+```json
+ "produced_by": [
+    {
+      "type": "Production",
+      "part": [
+        {
+          "type": "Production",
+          "technique": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300404387",
+              "type": "Type",
+              "_label": "Creating"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/000000000001",
+              "type": "Person",
+              "_label": "Séverine Chavrier",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/drt",
+                  "type": "Type",
+                  "_label": "director"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+```
 
 ---
+
+### Funders & Supporters
+Sponsorships and acknowledgments are included in produced_by.
+
+Example:  
+> The **Fondation Ernst Göhner** sponsors the production.
+
+```json
+"produced_by": [
+    {
+      "type": "Production",
+      "part": [
+        {
+          "technique" : [
+            {
+              "id": "production/soutien/financement",
+              "type": "Type",
+              "_label": "production/soutien/financement"
+            }
+          ],
+          "carried_out_by" : [
+            {
+              "id": "https://data.stage.org/auth/000000000999",
+              "type": "Group",
+              "_label": "Fondation Ernst Göhner (Zoug)",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/spn",
+                  "type": "Type",
+                  "_label": "Sponsor",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Avec le soutien de"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+```
+
+![Production class schema](Figures-Cookbook/B.drawio.svg)
+
+---
+### Characters
+For characters we suggest a new property : portrayed
+
+> **Pierre Artières-Glissant** plays **Henry** in *Absalon, Absalon!*.
+
+```json
+
+"produced_by": [
+    {
+      "type": "Production",
+      "part": [
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/act",
+              "type": "Type",
+              "_label": "actor"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/000000000009",
+              "type": "Person",
+              "_label": "Pierre Artières-Glissant",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec"
+                }
+              ],
+"portrayed": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "name of the character",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300410267",
+                      "type": "Type",
+                      "_label": "character"
+                    }
+                  ],
+                  "content": "Henry",
+
+
+```
+
+
+## Show (C)
+
+A **specific performance date** is modeled as a **separate Activity**, linked to **Production (B)** via `part_of`.
+
+### Key properties:
+- **Precise timespan** (date and duration).
+- **Part of** (Production B).
+- **Classification** (`classified_as`).
+
+Example:  
+> The *Absalon, Absalon!* performance on **29 June 2024 at 16:00**, as part of the **Avignon season**.
+
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/shows/000000000001",
+  "type": "Activity",
+  "_label": "Specific Date for Absalon, Absalon ",
+  "part_of": [
+    {
+      "id": "https://data.stage.org/prod/000000000001",
+      "type": "Activity",
+      "_label": "Absalon, Absalon in Avignon (Season) (B.json)"
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/page/aat/300XXXXXX",
+      "type": "Type",
+      "_label": "performance (performing arts show) to be defined in Getty"
+    }
+  ],
+  "timespan": {
+    "type": "TimeSpan",
+    "_label": "Date",
+    "begin_of_the_begin": "2024-06-29T16:00:00Z"
+  }
+}
+
+```
+
+![Show class schema](Figures-Cookbook/C.drawio.svg)
+
+---
+
+## Sources & Citations
+
+- Performance details should link to **primary sources** (`attributed_by`).
+- Exact transcriptions from sources use **`referred_to_by`**.
+- Visual materials (**stage design photos**) use `representation`.
+
+Example:  
+> The genre of *Absalon, Absalon!* ("Théâtre") is cited from the **show programme** and linked via **IIIF**.
+
+```json
+"attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "identified_by": [
+        {
+          "type": "Type",
+          "id": "https://vocab.getty.edu/aat/300027216",
+          "_label": "show programme",
+          "classified_as": [
+            {
+              "id": "https://vocab.getty.edu/aat/300311936",
+              "type": "Type",
+              "_label": "primary source"
+            }
+          ]
+        }
+      ],
+      "assigned": [
+        {
+          "type": "LinguisticObject",
+          "id": "https://data.stage.org/programs/000000000001",
+          "_label": "Absalon show programme"
+        }
+      ],
+      "carried_out_by": [
+        {
+          "id": "https://data.stage.org/festivalavignon",
+          "type": "Group",
+          "_label": "Festival d'Avignon"
+        }
+      ]
+    }
+  ]
+
+
 
 ### Ticket Pricing
 The **ticket price** is included via the `dimension` property:  
@@ -512,223 +758,4 @@ Example:
   }
 ],
 ```
-
----
-
-### Roles
-Each **person or organization** involved is listed in `carried_out_by`, classified by **roles** (director, actor, etc.).
-
-Example:  
-> **Séverine Chavrier** is both **director** and **adapter** of the performance.  
-> **Pierre Artières-Glissant** plays **Henry** in *Absalon, Absalon!*.
-
-```json
-"carried_out_by": [
-    {
-      "id": "https://data.stage.org/auth/000000000001",
-      "type": "Person",
-      "_label": "Séverine Chavrier",
-      "referred_to_by": [
-        {
-          "type": "LinguisticObject",
-          "_label": "role as appears in doc",
-          "classified_as": [
-            {
-              "id": "http://vocab.getty.edu/page/aat/300435423",
-              "type": "Type",
-              "_label": "Literal transcription"
-            }
-          ],
-          "content": "adaptation et mise en scène"
-        }
-      ],
-      "classified_as": [
-        {
-          "id": "http://id.loc.gov/vocabulary/relators/drt",
-          "type": "Type",
-          "_label": "director"
-        },
-        {
-          "id": "http://id.loc.gov/vocabulary/relators/adp",
-          "type": "Type",
-          "_label": "adapter"
-        }
-      ]
-    },
-    {
-      "id": "https://data.stage.org/auth/000000000009",
-      "type": "Person",
-      "_label": "Pierre Artières-Glissant",
-      "classified_as": [
-        {
-          "id": "http://id.loc.gov/vocabulary/relators/act",
-          "type": "Type",
-          "_label": "actor"
-        }
-      ],
-      "referred_to_by": [
-        {
-          "type": "LinguisticObject",
-          "_label": "role as appears in doc",
-          "classified_as": [
-            {
-              "id": "http://vocab.getty.edu/page/aat/300435423",
-              "type": "Type",
-              "_label": "Literal transcription"
-            }
-          ],
-          "content": "avec"
-        }
-      ],
-      "has_character": [
-        {
-          "type": "LinguisticObject",
-          "_label": "name of the character",
-          "classified_as": [
-            {
-              "id": "http://vocab.getty.edu/page/aat/300410267",
-              "type": "Type",
-              "_label": "character"
-            }
-          ],
-          "content": "Henry"
-        }
-      ]
-    }
-]
-
-```
-
----
-
-### Funders & Supporters
-Sponsorships and acknowledgments are recorded in `participant`, classified by **funding type**.
-
-Example:  
-> The **Fondation Ernst Göhner** sponsors the production.
-
-```json
-"participant": [
-{
-      "id": "https://data.stage.org/auth/000000000999",
-      "type": "Group",
-      "_label": "Fondation Ernst Göhner (Zoug)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/page/aat/300188572",
-          "type": "Type",
-          "_label": "Sponsor",
-          "referred_to_by": [
-            {
-              "type": "LinguisticObject",
-              "_label": "as appears in program",
-              "classified_as": [
-                {
-                  "id": "http://vocab.getty.edu/page/aat/300456607",
-                  "type": "Type",
-                  "_label": "Literal transcription"
-                }
-              ],
-              "content": "Avec le soutien de"
-            }
-          ]
-        }
-      ]
-    }
-]
-
-```
-
-![Production class schema](Figures-Cookbook/B.drawio.svg)
-
----
-
-## Show (C)
-
-A **specific performance date** is modeled as a **separate Activity**, linked to **Production (B)** via `part_of`.
-
-### Key properties:
-- **Precise timespan** (date and duration).
-- **Part of** (Production B).
-- **Classification** (`classified_as`).
-
-Example:  
-> The *Absalon, Absalon!* performance on **29 June 2024 at 16:00**, as part of the **Avignon season**.
-
-```json
-{
-  "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://data.stage.org/shows/000000000001",
-  "type": "Activity",
-  "_label": "Specific Date for Absalon, Absalon ",
-  "part_of": [
-    {
-      "id": "https://data.stage.org/prod/000000000001",
-      "type": "Activity",
-      "_label": "Absalon, Absalon in Avignon (Season) (B.json)"
-    }
-  ],
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/page/aat/300XXXXXX",
-      "type": "Type",
-      "_label": "performance (performing arts show) to be defined in Getty"
-    }
-  ],
-  "timespan": {
-    "type": "TimeSpan",
-    "_label": "Date",
-    "begin_of_the_begin": "2024-06-29T16:00:00Z"
-  }
-}
-
-```
-
-![Show class schema](Figures-Cookbook/C.drawio.svg)
-
----
-
-## Sources & Citations
-
-- Performance details should link to **primary sources** (`attributed_by`).
-- Exact transcriptions from sources use **`referred_to_by`**.
-- Visual materials (**stage design photos**) use `representation`.
-
-Example:  
-> The genre of *Absalon, Absalon!* ("Théâtre") is cited from the **show programme** and linked via **IIIF**.
-
-```json
-"attributed_by": [
-    {
-      "type": "AttributeAssignment",
-      "identified_by": [
-        {
-          "type": "Type",
-          "id": "https://vocab.getty.edu/aat/300027216",
-          "_label": "show programme",
-          "classified_as": [
-            {
-              "id": "https://vocab.getty.edu/aat/300311936",
-              "type": "Type",
-              "_label": "primary source"
-            }
-          ]
-        }
-      ],
-      "assigned": [
-        {
-          "type": "LinguisticObject",
-          "id": "https://data.stage.org/programs/000000000001",
-          "_label": "Absalon show programme"
-        }
-      ],
-      "carried_out_by": [
-        {
-          "id": "https://data.stage.org/festivalavignon",
-          "type": "Group",
-          "_label": "Festival d'Avignon"
-        }
-      ]
-    }
-  ]
 
