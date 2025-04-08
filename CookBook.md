@@ -388,25 +388,25 @@ Example:
 
 ```json
 "classified_as": [
-        {
-          "id": "https://vocab.getty.edu/aat/300417582",
-          "type": "Type",
-          "_label": "Theater (genre)",
-          "referred_to_by": [
-            {
-              "type": "LinguisticObject",
-              "_label": "genre as appears in program",
-              "classified_as": [
-                {
-                  "id": "http://vocab.getty.edu/page/aat/300456607",
-                  "type": "Type",
-                  "_label": "Literal transcription"
-                }
-              ],
-              "content": "Théâtre"
-            }
-          ]
-        }
+  {
+    "id": "https://vocab.getty.edu/aat/300417582",
+    "type": "Type",
+    "_label": "Theater (genre)",
+    "referred_to_by": [
+      {
+        "type": "LinguisticObject",
+        "_label": "genre as appears in program",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/page/aat/300456607",
+            "type": "Type",
+            "_label": "Literal transcription"
+          }
+        ],
+        "content": "Théâtre"
+      }
+    ]
+  }
 ]
 ```
 ---
@@ -418,35 +418,37 @@ Example:
 > **Séverine Chavrier** is both **director** and **adapter** of the performance.  
 
 ```json
- "produced_by": [
-    {
-      "type": "Production",
-      "part": [
-        {
-          "type": "Production",
-          "technique": [
-            {
-              "id": "http://vocab.getty.edu/page/aat/300404387",
-              "type": "Type",
-              "_label": "Creating"
-            }
-          ],
-          "carried_out_by": [
-            {
-              "id": "https://data.stage.org/auth/000000000001",
-              "type": "Person",
-              "_label": "Séverine Chavrier",
-              "classified_as": [
-                {
-                  "id": "http://id.loc.gov/vocabulary/relators/drt",
-                  "type": "Type",
-                  "_label": "director"
-                }
-              ]
-            }
-          ]
-        }
-      ],
+"produced_by": [
+  {
+    "type": "Production",
+    "part": [
+      {
+        "type": "Production",
+        "technique": [
+          {
+            "id": "http://vocab.getty.edu/page/aat/300404387",
+            "type": "Type",
+            "_label": "Creating"
+          }
+        ],
+        "carried_out_by": [
+          {
+            "id": "https://data.stage.org/auth/000000000001",
+            "type": "Person",
+            "_label": "Séverine Chavrier",
+            "classified_as": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/drt",
+                "type": "Type",
+                "_label": "director"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+],
 ```
 
 ---
@@ -459,45 +461,49 @@ Example:
 
 ```json
 "produced_by": [
-    {
-      "type": "Production",
-      "part": [
-        {
-          "technique" : [
-            {
-              "id": "production/soutien/financement",
-              "type": "Type",
-              "_label": "production/soutien/financement"
-            }
-          ],
-          "carried_out_by" : [
-            {
-              "id": "https://data.stage.org/auth/000000000999",
-              "type": "Group",
-              "_label": "Fondation Ernst Göhner (Zoug)",
-              "classified_as": [
-                {
-                  "id": "http://id.loc.gov/vocabulary/relators/spn",
-                  "type": "Type",
-                  "_label": "Sponsor",
-                  "referred_to_by": [
-                    {
-                      "type": "LinguisticObject",
-                      "_label": "as appears in program",
-                      "classified_as": [
-                        {
-                          "id": "http://vocab.getty.edu/page/aat/300456607",
-                          "type": "Type",
-                          "_label": "Literal transcription"
-                        }
-                      ],
-                      "content": "Avec le soutien de"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+  {
+    "type": "Production",
+    "part": [
+      {
+        "technique" : [
+          {
+            "id": "production/soutien/financement",
+            "type": "Type",
+            "_label": "production/soutien/financement"
+          }
+        ],
+        "carried_out_by" : [
+          {
+            "id": "https://data.stage.org/auth/000000000999",
+            "type": "Group",
+            "_label": "Fondation Ernst Göhner (Zoug)",
+            "classified_as": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/spn",
+                "type": "Type",
+                "_label": "Sponsor",
+                "referred_to_by": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "as appears in program",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300456607",
+                        "type": "Type",
+                        "_label": "Literal transcription"
+                      }
+                    ],
+                    "content": "Avec le soutien de"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }  
+]
 ```
 
 ![Production class schema](Figures-Cookbook/B.drawio.svg)
