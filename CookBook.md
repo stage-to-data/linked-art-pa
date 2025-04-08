@@ -258,7 +258,7 @@ A **production** is modeled as an `Activity`, similar to an **exhibition** in th
 - **Classification** (`classified_as`), e.g., `"Performances (creative events)"`
 - **Temporal scope** (`timespan`)
 - **Location** (`took_place_at`)
-- **Participants** (`carried_out_by`)
+- **Participants** (`produced_by`)
 
 Example:  
 > The production of *Absalon, Absalon!* by **Séverine Chavrier**, presented in **July 2024** at **La Fabrica (Avignon Festival)**.
@@ -310,6 +310,35 @@ Example:
       ]
     }
   ],
+  "produced_by": [
+    {
+      "type": "Production",
+      "part": [
+        {
+          "type": "Production",
+          "technique": [
+            {
+              "id":"http://vocab.getty.edu/page/aat/300404387",
+              "type": "Type",
+              "_label": "Creating"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/000000000001",
+              "type": "Person",
+              "_label": "Séverine Chavrier",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/drt",
+                  "type": "Type",
+                  "_label": "director"
+                }
+              ]
+            }
+          ]
+        }
+      ],
   "took_place_at": [
     {
       "id": "https://data.stage.org/auth/100000000001",
