@@ -10,6 +10,13 @@
       "_label": "Absalon, Absalon in Avignon (Season) (B.json)"
     }
   ],
+  "member_of": [
+    {
+      "id": "https://data.stage.org/sets/Absalon",
+      "type": "Set",
+      "_label": "Absalon, Absalon in Avignon (set of shows)"
+    }
+  ],
   "classified_as": [
     {
       "id": "http://vocab.getty.edu/page/aat/300XXXXXX",
