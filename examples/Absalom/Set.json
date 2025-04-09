@@ -1,0 +1,166 @@
+{
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://data.stage.org/sets/Absalon",
+    "type": "Set",
+    "_label": "Practical information Absalon",
+    "classified_as": [
+        {
+            "id": "http://vocab.getty.edu/page/aat/300419392",
+            "type": "Type",
+            "_label": "Collection"
+        }
+    ],
+    "subject_of": [
+        {
+            "type": "LinguisticObject",
+            "_label": "Information as appears in general program",
+            "classified_as": [
+                {
+                    "id": "https://vocab.getty.edu/aat/300311936",
+                    "type": "Type",
+                    "_label": "primary source"
+                }
+            ]
+        }
+    ],
+    "used_for" : [
+        {
+          "id": "https://data.stage.org/prod/000000000001",
+          "type": "Activity",
+          "_label": "Absalon, Absalon in Avignon (Season) (B.json)" 
+        }
+    ],
+    "dimension": [
+        {
+            "type": "MonetaryAmount",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300417247",
+                    "type": "Type",
+                    "_label": "List Prices"
+                }
+            ],
+            "value": "30",
+            "currency": {
+                "id": "https://vocab.getty.edu/aat/300425170",
+                "type": "Currency",
+                "_label": "Euros"
+            },
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "_label": "price category",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/page/aat/300435423",
+                            "type": "Type",
+                            "_label": "Literal transcription"
+                        }
+                    ],
+                    "content": "Tarif Plein - C"
+                }
+            ]
+        },
+        {
+            "type": "MonetaryAmount",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300417247",
+                    "type": "Type",
+                    "_label": "List Prices"
+                }
+            ],
+            "value": "25",
+            "currency": {
+                "id": "https://vocab.getty.edu/aat/300425170",
+                "type": "Currency",
+                "_label": "Euros"
+            },
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "_label": "price category",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/page/aat/300435423",
+                            "type": "Type",
+                            "_label": "Literal transcription"
+                        }
+                    ],
+                    "content": "Carte Festival"
+                }
+            ]
+        },
+        {
+            "type": "MonetaryAmount",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300417247",
+                    "type": "Type",
+                    "_label": "List Prices"
+                }
+            ],
+            "value": "10",
+            "currency": {
+                "id": "https://vocab.getty.edu/aat/300425170",
+                "type": "Currency",
+                "_label": "Euros"
+            },
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "_label": "price category",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/page/aat/300435423",
+                            "type": "Type",
+                            "_label": "Literal transcription"
+                        }
+                    ],
+                    "content": "Carte '3' clés"
+                }
+            ]
+        }
+    ],
+    "timespan": {
+        "type": "TimeSpan",
+        "_label": "5h",
+        "duration": {
+            "type": "Dimension",
+            "value": 300,
+            "unit": {
+                "id": "http://vocab.getty.edu/aat/300379240",
+                "type": "MeasurementUnit",
+                "_label": "minutes"
+            }
+        },
+        "referred_to_by": [
+            {
+                "type": "LinguisticObject",
+                "_label": "Information as appears in show program",
+                "classified_as": [
+                    {
+                        "id": "https://vocab.getty.edu/aat/300311936",
+                        "type": "Type",
+                        "_label": "primary source"
+                    }
+                ],
+                "content": "5h",
+                "subject_of": [
+                    {
+                        "id": "https://data.stage.org/prog/000000000001",
+                        "type": "LinguisticObject",
+                        "_label": "Information as appears in show program",
+                        "classified_as": [
+                            {
+                                "id": "https://vocab.getty.edu/aat/300311936",
+                                "type": "Type",
+                                "_label": "primary source"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
