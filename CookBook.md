@@ -668,109 +668,138 @@ Example:
       ]
     }
   ]
+```
 
+---
+## Practical Informations
+We use the class "set" to describe the ticket prices and the duration of the show. Indeed activities in Cidoc-CRM can not accept dimensions nor multiple timespans. These characteristics apply to the B Level (Production).
 
+The Set has to be linked with the corresponding B with the _used_for property.
+In C individual shows are member of the Set. The link is made via the _member_of property used in C.
 
 ### Ticket Pricing
 The **ticket price** is included via the `dimension` property:  
 - `classified_as: Price`
 - `unit: Currency`
 
-Example:  
-> Ticket prices for one performance in euros.
+### Duration
+The duration of the show is indicated via the "TimeSpan" property. If the duration of one specific show differs, it has to be indicated in the C.
+
+### Example
+The ticket price of the show Abasalon in Avignon is 30 euros. The duration of the show is 5 hours. In this case, the general program gives the information for the ticket price while the show program gives the information for the duration.
 
 ```json
-"dimension": [
-  {
-    "type": "MonetaryAmount",
+{
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://data.stage.org/sets/Absalon",
+    "type": "Set",
+    "_label": "practical information Absalon",
     "classified_as": [
-      {
-        "id": "http://vocab.getty.edu/aat/300417247",
-        "type": "Type",
-        "_label": "List Prices"
-      }
-    ],
-    "value": "23",
-    "currency": {
-      "id": "https://vocab.getty.edu/aat/300425170",
-      "type": "Currency",
-      "_label": "Euros"
-    },
-    "referred_to_by": [
-      {
-        "type": "LinguisticObject",
-        "_label": "price category",
-        "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/page/aat/300435423",
+        {
+            "id": "http://vocab.getty.edu/page/aat/300419392",
             "type": "Type",
-            "_label": "Literal transcription"
-          }
-        ],
-        "content": "plein"
-      }
-    ]
-  },
-  {
-    "type": "MonetaryAmount",
-    "classified_as": [
-      {
-        "id": "http://vocab.getty.edu/aat/300417247", 
-        "type": "Type",
-        "_label": "List Prices"
-      }
+            "_label": "practical information"
+        }
     ],
-    "value": "16",
-    "currency": {
-      "id": "https://vocab.getty.edu/aat/300425170",
-      "type": "Currency",
-      "_label": "Euros"
-    },
-    "referred_to_by": [
-      {
-        "type": "LinguisticObject",
-        "_label": "price category",
-        "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/page/aat/300435423",
-            "type": "Type",
-            "_label": "Literal transcription"
-          }
-        ],
-        "content": "abonné"
-      }
-    ]
-  },
-  {
-    "type": "MonetaryAmount",
-    "classified_as": [
-      {
-        "id": "http://vocab.getty.edu/aat/300417247", 
-        "type": "Type",
-        "_label": "List Prices"
-      }
+    "subject_of": [
+        {
+            "type": "LinguisticObject",
+            "_label": "Information as appears in general program",
+            "classified_as": [
+                {
+                    "id": "https://vocab.getty.edu/aat/300311936",
+                    "type": "Type",
+                    "_label": "primary source"
+                }
+            ]
+        }
     ],
-    "value": "18",
-    "currency": {
-      "id": "https://vocab.getty.edu/aat/300425170",
-      "type": "Currency",
-      "_label": "Euros"
-    },
-    "referred_to_by": [
-      {
-        "type": "LinguisticObject",
-        "_label": "price category",
-        "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/page/aat/300435423",
-            "type": "Type",
-            "_label": "Literal transcription"
-          }
-        ],
-        "content": "reduit"
-      }
-    ]
-  }
-],
+    "used_for" : [
+        {
+          "id": "https://data.stage.org/prod/000000000001",
+          "type": "Activity",
+          "_label": "Absalon, Absalon in Avignon (Season) (B.json)" 
+        }
+    ],
+    "member_of": [
+        {
+        "id": "https://data.stage.org/sets/Absalom",
+        "type": "Set",
+        "_label": "Absalon, Absalon in Avignon (set of shows)"
+        }
+    ],
+    "dimension": [
+        {
+            "type": "MonetaryAmount",
+            "classified_as": [
+                {
+                    "id": "http://vocab.getty.edu/aat/300417247",
+                    "type": "Type",
+                    "_label": "List Prices"
+                }
+            ],
+            "value": "30",
+            "currency": {
+                "id": "https://vocab.getty.edu/aat/300425170",
+                "type": "Currency",
+                "_label": "Euros"
+            },
+            "referred_to_by": [
+                {
+                    "type": "LinguisticObject",
+                    "_label": "price category",
+                    "classified_as": [
+                        {
+                            "id": "http://vocab.getty.edu/page/aat/300435423",
+                            "type": "Type",
+                            "_label": "Literal transcription"
+                        }
+                    ],
+                    "content": "Tarif Plein - C"
+                }
+            ]
+        }
+    ],
+    "timespan": {
+        "type": "TimeSpan",
+        "_label": "5h",
+        "duration": {
+            "type": "Dimension",
+            "value": 300,
+            "unit": {
+                "id": "http://vocab.getty.edu/aat/300379240",
+                "type": "MeasurementUnit",
+                "_label": "minutes"
+            }
+        },
+        "referred_to_by": [
+            {
+                "type": "LinguisticObject",
+                "_label": "Information as appears in show program",
+                "classified_as": [
+                    {
+                        "id": "https://vocab.getty.edu/aat/300311936",
+                        "type": "Type",
+                        "_label": "primary source"
+                    }
+                ],
+                "content": "5h",
+                "subject_of": [
+                    {
+                        "id": "https://data.stage.org/prog/000000000001",
+                        "type": "LinguisticObject",
+                        "_label": "Information as appears in show program",
+                        "classified_as": [
+                            {
+                                "id": "https://vocab.getty.edu/aat/300311936",
+                                "type": "Type",
+                                "_label": "primary source"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
 ```
-
