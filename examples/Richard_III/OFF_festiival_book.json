@@ -1,0 +1,39 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "type": "DigitalObject",
+  "id": "https://data.stage.org/iiif/manifest/000000000001",
+  "_label": "Festival Avignon OFF 2024 General Programme",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/page/aat/300194116",
+      "type": "Type",
+      "_label": "festival books"
+    }
+  ],
+  "created_by": [
+    {
+      "type": "CreationAssignment",
+      "_label": "Association  AF&C",
+      "carried_out_by": [
+        {
+          "id": "https://data.stage.org/AF&C",
+          "type": "Group",
+          "_label": "Avignon Festival and Compagnies"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Title"
+        }
+      ],
+      "content": "Festival Avignon OFF 2024 General Programme"
+    }
+  ]
+}

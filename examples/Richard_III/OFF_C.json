@@ -10,6 +10,13 @@
       "_label": "Richard III in Avignon (Season) (OFF_B.json)"
     }
   ],
+  "member_of": [
+    {
+      "id": "https://data.stage.org/sets/RichardIII",
+      "type": "Set",
+      "_label": "William Mesguish's Richard III in Avignon (set of shows)"
+    }
+  ],
   "classified_as": [
     {
       "id": "http://vocab.getty.edu/page/aat/300XXXXXX",
@@ -20,18 +27,16 @@
   "timespan": {
     "type": "TimeSpan",
     "_label": "First Date",
-    "begin_of_the_begin": "2024-06-3T21:00:00Z"
+    "begin_of_the_begin": "2024-07-03T21:00:00Z"
   },
-  "subject_of": [
+  "attributed_by": [
     {
-      "id": "Manifest IIIF",
-      "type": "DigitalObject",
-      "_label": "Festival Avignon OFF 2024 General Program",
-      "classified_as": [
+      "type": "AttributeAssignment",
+      "identified_by": [
         {
-          "id": "https://vocab.getty.edu/aat/300027217",
           "type": "Type",
-          "_label": "theater program",
+          "id": "http://vocab.getty.edu/page/aat/300194116",
+          "_label": "Festival books",
           "classified_as": [
             {
               "id": "https://vocab.getty.edu/aat/300311936",
@@ -39,6 +44,13 @@
               "_label": "primary source"
             }
           ]
+        }
+      ],
+      "assigned": [
+        {
+          "type": "DigitalObject",
+          "id": "https://data.stage.org/iiif/manifest/000000000001",
+          "_label": "Festival Avignon OFF 2024 General Programme"
         }
       ]
     }

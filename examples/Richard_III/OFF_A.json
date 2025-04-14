@@ -30,60 +30,65 @@
       ]
     }
   ],
-  "produced_by": {
-    "type": "Production",
-    "technique" : [
-      {
-        "id":"http://vocab.getty.edu/page/aat/300404387",
-        "type": "Type",
-        "_label": "Creating"
-      }
-    ],
-    "carried_out_by": [
-      {
-        "id": "https://data.stage.org/auth/000000000001",
-        "type": "Person",
-        "_label": "William Mesguish",
-        "classified_as": [
-          {
-            "id": "http://id.loc.gov/vocabulary/relators/drt",
-            "type": "Type",
-            "_label": "director"
-          }
-        ]
-      }
-    ],
-    "timespan": 
+  "produced_by": [
     {
-      "type": "TimeSpan",
-      "_label": "2024",
-      "begin_of_the_begin": "2024-01-01T00:00:00Z"
-    },
-    "influenced_by": [
+      "type": "Production",
+      "part": [
+        {
+          "type": "Production",
+          "technique" : [
+            {
+              "id":"http://vocab.getty.edu/page/aat/300404387",
+              "type": "Type",
+              "_label": "Creating"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/000000000001",
+              "type": "Person",
+              "_label": "William Mesguish",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/drt",
+                  "type": "Type",
+                  "_label": "director"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "timespan": 
       {
-        "id": "ttps://data.stage.org/text/000000000101 (OFF_text.json)",
-        "type": "LinguisticObject",
-        "_label": "Shakespeare Richard III"
-      }
-    ]
-  },
-  "language": [
-    {
-      "id": "http://vocab.getty.edu/aat/300388306",
-      "type": "Language",
-      "label": "French"
+        "type": "TimeSpan",
+        "_label": "2024",
+        "begin_of_the_begin": "2024-01-01T00:00:00Z"
+      },
+      "influenced_by": [
+        {
+          "id": "https://data.stage.org/text/000000000101 (OFF_text.json)",
+          "type": "LinguisticObject",
+          "_label": "Shakespeare Richard III"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "label": "French"
+        }
+      ]
     }
   ],
-  "subject_of": [
+  "attributed_by": [
     {
-      "id": "Manifest IIIF",
-      "type": "DigitalObject",
-      "_label": "Festival Avignon OFF 2024 General Program",
-      "classified_as": [
+      "type": "AttributeAssignment",
+      "identified_by": [
         {
-          "id": "https://vocab.].edu/aat/300027217",
           "type": "Type",
-          "_label": "theater program",
+          "id": "http://vocab.getty.edu/page/aat/300194116",
+          "_label": "Festival books",
           "classified_as": [
             {
               "id": "https://vocab.getty.edu/aat/300311936",
@@ -91,6 +96,13 @@
               "_label": "primary source"
             }
           ]
+        }
+      ],
+      "assigned": [
+        {
+          "type": "DigitalObject",
+          "id": "https://data.stage.org/iiif/manifest/000000000001",
+          "_label": "Festival Avignon OFF 2024 General Programme"
         }
       ]
     }
