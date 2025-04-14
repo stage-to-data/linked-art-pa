@@ -70,28 +70,7 @@
       "type": "Set",
       "_label": "Absalon, Absalon in Avignon (set of shows)"
     }
-  ],
-  "subject_of": [
-    {
-      "id": "https://data.stage.org/programs/000000000001",
-      "type": "LinguisticObject",
-      "_label": "Absalon show programme",
-      "classified_as": [
-        {
-          "id": "https://vocab.getty.edu/aat/300027216",
-          "type": "Type",
-          "_label": "playbills",
-          "classified_as": [
-            {
-              "id": "https://vocab.getty.edu/aat/300311936",
-              "type": "Type",
-              "_label": "primary source"
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  ]
   "influenced_by": [
     {
       "id": "https://data.stage.org/works/000000000001 (A.json)",
@@ -250,77 +229,28 @@
                     }
                   ],
                   "content": "Henry",
-                  "subject_of": [
-                    {
-                      "type": "DigitalObject",
-                      "_label": "France Info",
-                      "classified_as": [
+                  "attributed_by": [
+                     {
+                      "type": "AttributeAssignment",
+                      "identified_by": [
                         {
-                          "id": "http://vocab.getty.edu/aat/300264578",
                           "type": "Type",
-                          "_label": "Web Page",
+                          "id": "http://vocab.getty.edu/page/aat/300438576",
+                          "_label": "online publications",
                           "classified_as": [
                             {
                               "id": "https://vocab.getty.edu/aat/300311936",
                               "type": "Type",
                               "_label": "primary source"
                             }
-                          ],
-                          "created_by": {
-                            "type": "Creation",
-                            "_label": "article france TV info",
-                            "carried_out_by": [
-                              {
-                                "id": "https://data.stage.org/auth/500000000005",
-                                "type": "Person",
-                                "_label": "Tessa Grauman"
-                              }
-                            ]
-                          },
-                          "used_for": [
-                            {
-                              "type": "Activity",
-                              "_label": "France TV Info",
-                              "classified_as": [
-                                {
-                                  "id": "http://vocab.getty.edu/aat/300054686",
-                                  "type": "Type",
-                                  "_label": "Publishing"
-                                }
-                              ],
-                              "timespan": {
-                                "type": "TimeSpan",
-                                "begin_of_the_begin": "2024-07-06T15:31:00Z",
-                                "begin_of_the_end": "2025-02-27T00:00:00Z"
-                              },
-                              "access_point": [
-                                {
-                                  "id": "https://la1ere.francetvinfo.fr/festival-d-avignon-dans-absalon-absalon-la-famille-glissant-revit-a-travers-le-texte-et-sur-la-scene-1503722.html",
-                                  "type": "DigitalObject"
-                                }
-                              ],
-                              "identified_by": [
-                                {
-                                  "type": "Name",
-                                  "classified_as": [
-                                    {
-                                      "id": "http://vocab.getty.edu/aat/300417193",
-                                      "type": "Type",
-                                      "_label": "titles (general, names)"
-                                    }
-                                  ],
-                                  "content": "Festival d’Avignon : Dans \"Absalon, Absalon !\", la famille Glissant (re)vit à travers le texte et sur la scène",
-                                  "language": [
-                                    {
-                                      "id": "http://vocab.getty.edu/aat/300388306",
-                                      "type": "Language",
-                                      "_label": "French"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
                           ]
+                        }
+                      ],
+                      "assigned": [
+                        {
+                          "type": "DigitalObject",
+                          "id": "https://la1ere.francetvinfo.fr/festival-d-avignon-dans-absalon-absalon-la-famille-glissant-revit-a-travers-le-texte-et-sur-la-scene-1503722.html",
+                          "_label": "Web Page"
                         }
                       ]
                     }
@@ -357,14 +287,14 @@
           ]
         },
         {
-          "technique" : [
+          "technique": [
             {
               "id": "production/soutien/financement",
               "type": "Type",
               "_label": "production/soutien/financement"
             }
           ],
-          "carried_out_by" : [
+          "carried_out_by": [
             {
               "id": "https://data.stage.org/auth/600000000061",
               "type": "Group",
@@ -394,14 +324,14 @@
           ]
         },
         {
-          "technique" : [
+          "technique": [
             {
               "id": "production/soutien/financement",
               "type": "Type",
               "_label": "production/soutien/financement"
             }
           ],
-          "carried_out_by" : [
+          "carried_out_by": [
             {
               "id": "https://data.stage.org/auth/140000000041",
               "type": "Group",
@@ -431,14 +361,14 @@
           ]
         },
         {
-          "technique" : [
+          "technique": [
             {
               "id": "production/soutien/financement",
               "type": "Type",
               "_label": "production/soutien/financement"
             }
           ],
-          "carried_out_by" : [
+          "carried_out_by": [
             {
               "id": "https://data.stage.org/auth/000000000999",
               "type": "Group",
@@ -468,14 +398,14 @@
           ]
         },
         {
-          "technique" : [
+          "technique": [
             {
               "id": "production/soutien/financement",
               "type": "Type",
               "_label": "production/soutien/financement"
             }
           ],
-          "carried_out_by" : [
+          "carried_out_by": [
             {
               "id": "https://data.stage.org/auth/124000000421",
               "type": "Person",
@@ -526,16 +456,9 @@
       ],
       "assigned": [
         {
-          "type": "LinguisticObject",
+          "type": "HumanMadeObject",
           "id": "https://data.stage.org/programs/000000000001",
           "_label": "Absalon show programme"
-        }
-      ],
-      "carried_out_by": [
-        {
-          "id": "https://data.stage.org/festivalavignon",
-          "type": "Group",
-          "_label": "Festival d'Avignon"
         }
       ]
     }

@@ -1,0 +1,117 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://linked.art/example/object/yul_10801219/1",
+  "type": "HumanMadeObject",
+  "_label": "Yale's copy of Koot's Night Watch",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300424602",
+      "type": "Type",
+      "_label": "digital documents"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417193",
+          "type": "Type",
+          "_label": "titles (general, names)"
+        }
+      ],
+      "content": "Festival d’Avignon : Dans \"Absalon, Absalon !\", la famille Glissant (re)vit à travers le texte et sur la scène"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435452",
+          "type": "Type",
+          "_label": "Physical Statement",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "content": "92 p. with illus.",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "_label": "French"
+        }
+      ],
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://la1ere.francetvinfo.fr/festival-d-avignon-dans-absalon-absalon-la-famille-glissant-revit-a-travers-le-texte-et-sur-la-scene-1503722.html",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "created_by": [
+    {
+      "type": "Creation",
+      "_label": "Creation of the online article by Tessa Grauman with France Info",
+      "carried_out_by": [
+        {
+          "id": "https://data.stage.org/auth/500000000005",
+          "type": "Person",
+          "_label": "Tessa Grauman",
+          "classified_as": [
+            {
+              "id": "https://vocab.getty.edu/aat/300025492",
+              "type": "Type",
+              "_label": "authors"
+            }
+          ]
+        },
+        {
+          "id": "https://data.stage.org/auth/XXX000XXX01",
+          "type": "Group",
+          "_label": "France TV Info − La Première",
+          "classified_as": [
+            {
+              "id": "https://vocab.getty.edu/aat/300025574",
+              "type": "Type",
+              "_label": "publishers"
+            }
+          ]
+
+        }
+      ],
+      "timespan": {
+        "type": "TimeSpan",
+        "begin_of_the_begin": "2024-07-06T15:31:00Z",
+        "begin_of_the_end": "2025-02-27T00:00:00Z"
+      }
+    }
+  ],
+  "carries": [
+    {
+      "id": "https://linked.art/example/text/koot_nightwatch",
+      "type": "LinguisticObject",
+      "_label": "Content of Koot's Night Watch"
+    }
+  ]
+}

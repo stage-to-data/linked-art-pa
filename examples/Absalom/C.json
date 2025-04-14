@@ -48,16 +48,9 @@
       ],
       "assigned": [
         {
-          "type": "LinguisticObject",
+          "type": "HumanMadeObject",
           "id": "https://data.stage.org/programs/000000000001",
           "_label": "Absalon show programme"
-        }
-      ],
-      "carried_out_by": [
-        {
-          "id": "https://data.stage.org/festivalavignon",
-          "type": "Group",
-          "_label": "Festival d'Avignon"
         }
       ]
     }
