@@ -38,7 +38,7 @@ This distinction ensures precise documentation, including unforeseen changes not
 - **Text** (as a `Textual Object`, e.g., the play).  
 - **Festival** (as an `Activity`, to be developed).  
 - **Season Programme** (as a `Textual` or `Digital Object`, to be developed).  
-- **Show Programme** (as a `Textual` or `Digital Object`, to be developed).  
+- **Show Programme** (as a `Textual` or `Digital Object`).  
 
 ![Global classes schema](Figures-Cookbook/Global.drawio.svg)
 
@@ -702,4 +702,43 @@ Example:
       ]
     }
   ]
+```
+
+## Show Programme
+
+A show programme is modelled as a `HumanMadeObject`, which carries textual and visual content such as artist biographies, performance descriptions, or institutional messages. These contents are represented using the carries property, pointing to `LinguisticObject` entities. The programme is also classified as a "show programme" using Getty AAT.
+
+```json
+{
+  "id": "https://data.stage.org/object/programme/absalom-2023",
+  "type": "HumanMadeObject",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300027221",
+      "type": "Type",
+      "label": "Show programme"
+    }
+  ],
+  "label": "Programme for *Absalom* (2023)",
+  "carries": [
+    {
+      "id": "https://data.stage.org/linguisticobject/biography-artist-x",
+      "type": "LinguisticObject",
+      "label": "Biography of Artist X",
+      "language": [
+        {
+          "id": "http://lexvo.org/id/iso639-1/en",
+          "type": "Language",
+          "label": "English"
+        }
+      ],
+      "content": "Artist X is a performer known for..."
+    }
+  ]
+}
+```
+
+`HumanMadeObject` vs `LinguisticObject`: The programme as a physical or digital artefact is a HumanMadeObject. The textual components (biographies, forewords, etc.) are embedded via carries → LinguisticObject.
+
+Content Modelling: In Absalom, each textual unit within the programme is treated as a discrete object. This enables better indexing, multilingual support, and fine-grained access to programme sections (e.g., a biography can be reused or translated independently).
 
