@@ -1,8 +1,8 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://linked.art/example/object/yul_10801219/1",
+  "id": "https://data.stage.org/object/000000000002",
   "type": "HumanMadeObject",
-  "_label": "Yale's copy of Koot's Night Watch",
+  "_label": "Absalon article by France TV Info",
   "classified_as": [
     {
       "id": "http://vocab.getty.edu/aat/300424602",
@@ -40,7 +40,6 @@
           ]
         }
       ],
-      "content": "92 p. with illus.",
       "language": [
         {
           "id": "http://vocab.getty.edu/aat/300388306",
@@ -109,9 +108,9 @@
   ],
   "carries": [
     {
-      "id": "https://linked.art/example/text/koot_nightwatch",
-      "type": "LinguisticObject",
-      "_label": "Content of Koot's Night Watch"
+      "id": "https://data.stage.org/works/000000000001",
+      "type": "PropositionalObject",
+      "_label": "The show of Absalon, Absalon! as conceived by Séverine Chavrier"
     }
   ]
 }
