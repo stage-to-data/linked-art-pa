@@ -78,13 +78,13 @@
         "_label": "2024",
         "begin_of_the_begin": "2024-01-01T00:00:00Z"
       },
-      "language": [
-        {
-          "id": "http://vocab.getty.edu/aat/300388306",
-          "type": "Language",
-          "label": "French"
-        }
-      ]
+    }
+  ],
+  "language": [
+    {
+      "id": "http://vocab.getty.edu/aat/300388306",
+      "type": "Language",
+      "label": "French"
     }
   ],
   "attributed_by": [
