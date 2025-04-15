@@ -147,30 +147,6 @@
                     }
                   ],
                   "content": "Metteur·se en scène"
-                },
-                {
-                  "type": "LinguisticObject",
-                  "_label": "role as appears in doc",
-                  "classified_as": [
-                    {
-                      "id": "http://vocab.getty.edu/page/aat/300435423",
-                      "type": "Type",
-                      "_label": "Literal transcription"
-                    }
-                  ],
-                  "content": "Comédien·ne"
-                }
-              ],
-              "classified_as": [
-                {
-                  "id": "http://id.loc.gov/vocabulary/relators/drt",
-                  "type": "Type",
-                  "_label": "metteur en scène"
-                },
-                {
-                  "id": "http://id.loc.gov/vocabulary/relators/act",
-                  "type": "Type",
-                  "_label": "acteur"
                 }
               ]
             }
