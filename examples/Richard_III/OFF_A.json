@@ -20,14 +20,7 @@
           "_label": "Title"
         }
       ],
-      "content": "Richard III",
-      "language": [
-        {
-          "id": "http://vocab.getty.edu/aat/300388306",
-          "type": "Language",
-          "label": "French"
-        }
-      ]
+      "content": "Richard III"
     }
   ],
   "produced_by": [
@@ -71,14 +64,14 @@
           "type": "LinguisticObject",
           "_label": "Shakespeare Richard III"
         }
-      ],
-      "language": [
-        {
-          "id": "http://vocab.getty.edu/aat/300388306",
-          "type": "Language",
-          "label": "French"
-        }
       ]
+    }
+  ],
+  "language": [
+    {
+      "id": "http://vocab.getty.edu/aat/300388306",
+      "type": "Language",
+      "label": "French"
     }
   ],
   "attributed_by": [
