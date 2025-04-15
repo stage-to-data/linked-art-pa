@@ -1,6 +1,6 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "type": "DigitalObject",
+  "type": "HumanMadeObject",
   "id": "https://data.stage.org/iiif/manifest/000000000001",
   "_label": "Festival Avignon OFF 2024 General Programme",
   "classified_as": [
