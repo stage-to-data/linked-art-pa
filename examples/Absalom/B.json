@@ -165,21 +165,21 @@
                   "type": "Type",
                   "_label": "adapter"
                 }
-              ]
-            }
-          ],
-          "referred_to_by": [
-            {
-              "type": "LinguisticObject",
-              "_label": "role as appears in doc",
-              "classified_as": [
-                {
-                  "id": "http://vocab.getty.edu/page/aat/300435423",
-                  "type": "Type",
-                  "_label": "Literal transcription"
-                }
               ],
-              "content": "adaptation et mise en scène"
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "adaptation et mise en scène"
+                }
+              ]
             }
           ]
         },
