@@ -35,5 +35,22 @@
       ],
       "content": "Festival Avignon OFF 2024 General Programme"
     }
+  ],
+  "subject_of": [
+    {
+      "id": "https://data.stage.org/prod/00000000001",
+      "type": "Type",
+      "_label": "Activity"
+    },
+    {
+      "id": "https://data.stage.org/shows/000000000001",
+      "type": "Type",
+      "_label": "Activity"
+    },
+    {
+      "id": "https://data.stage.org/sets/000000000001",
+      "type": "Type",
+      "_label": "Activity"
+    }
   ]
 }

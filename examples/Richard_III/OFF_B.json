@@ -192,6 +192,217 @@
         {
           "technique": [
             {
+              "id": "http://id.loc.gov/vocabulary/relators/cst",
+              "type": "Type",
+              "_label": "Costume designer"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/000000000001",
+              "type": "Person",
+              "_label": "Maaureen Baldassari",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Habilleur.se"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/cst",
+                  "type": "Type",
+                  "_label": "Costume designer"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000001",
+              "type": "Person",
+              "_label": "Alice Trouvet",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Costumier.ère"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/cst",
+                  "type": "Type",
+                  "_label": "Costume designer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/sde",
+              "type": "Type",
+              "_label": "Sound engineer"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Maxime Denis",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/sde",
+                  "type": "Type",
+                  "_label": "Sound engineer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Technicien.ne son"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/sde",
+              "type": "Type",
+              "_label": "Sound engineer"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Maxime Denis",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/sde",
+                  "type": "Type",
+                  "_label": "Sound engineer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Technicien.ne son"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/vdg",
+              "type": "Type",
+              "_label": "Videographer"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Alfredo Troisi",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/vdg",
+                  "type": "Type",
+                  "_label": "Videographer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Vidéaste"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/prd",
+              "type": "Type",
+              "_label": "Production personel"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Stéphanie Gesnel",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Chargé.e de diffusion"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
               "id": "https://id.loc.gov/vocabulary/relators/pro",
               "type": "Type",
               "_label": "Production"

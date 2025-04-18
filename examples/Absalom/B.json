@@ -283,15 +283,1280 @@
                   "_label": "actor"
                 }
               ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000202",
+              "type": "Person",
+              "_label": "Jérôme de Falloise",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000202",
+              "type": "Person",
+              "_label": "Alban Guyon",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000202",
+              "type": "Person",
+              "_label": "Adèle Joulin",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000202",
+              "type": "Person",
+              "_label": "Jimy Lapert",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000202",
+              "type": "Person",
+              "_label": "Armel Malonga",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000202",
+              "type": "Person",
+              "_label": "Annie Mercier",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000202",
+              "type": "Person",
+              "_label": "Hendrickx Ntela",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000202",
+              "type": "Person",
+              "_label": "Laurent Papot",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000202",
+              "type": "Person",
+              "_label": "Kevin Bah « Ordinateur »",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000202",
+              "type": "Person",
+              "_label": "Maric Barbereau",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec la participation de"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000202",
+              "type": "Person",
+              "_label": "Remo Longo",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec la participation de"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000202",
+              "type": "Person",
+              "_label": "Daphné Biiga Nwanak",
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "avec"
+                }
+              ],
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/act",
+                  "type": "Type",
+                  "_label": "actor"
+                }
+              ]
             }
           ]
         },
         {
           "technique": [
             {
-              "id": "production/soutien/financement",
+              "id": "http://id.loc.gov/vocabulary/relators/trl",
               "type": "Type",
-              "_label": "production/soutien/financement"
+              "_label": "Translator"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/000000000001",
+              "type": "Person",
+              "_label": "François Pitavy",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/trl",
+                  "type": "Type",
+                  "_label": "Translator"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Traduction et relecture"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000001",
+              "type": "Person",
+              "_label": "René-Noël Raimbault",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/trl",
+                  "type": "Type",
+                  "_label": "Translator"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Traduction et relecture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/sgd",
+              "type": "Type",
+              "_label": "Stage Director"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Louise Sari",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/sgd",
+                  "type": "Type",
+                  "_label": "Stage Director"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Scénographie, accessoires et régie plateau"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Tess du Pasquier",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/sgd",
+                  "type": "Type",
+                  "_label": "Stage Director"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Assistanat à la scénographie"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/lgd",
+              "type": "Type",
+              "_label": "Lighting designer"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Germain Fourvel",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/lgd",
+                  "type": "Type",
+                  "_label": "Lighting designer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Lumière"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Nelly Perre",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/lgd",
+                  "type": "Type",
+                  "_label": "Lighting designer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Collaboration à la lumière"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Thomas Rebou",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/lgd",
+                  "type": "Type",
+                  "_label": "Lighting designer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Collaboration à la lumière"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/msd",
+              "type": "Type",
+              "_label": "Musical director"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Armel Malonga",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/msd",
+                  "type": "Type",
+                  "_label": "Musical director"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Musique"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/sde",
+              "type": "Type",
+              "_label": "Sound engineer"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Simon d’Anselme de Puisaye",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/sde",
+                  "type": "Type",
+                  "_label": "Sound engineer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Son"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Séverine Chavrier",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/sde",
+                  "type": "Type",
+                  "_label": "Sound engineer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Son"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Mathieu Ciron",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/sde",
+                  "type": "Type",
+                  "_label": "Sound engineer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Collaboration au son"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Marco Nüesch",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/sde",
+                  "type": "Type",
+                  "_label": "Sound engineer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Collaboration au son"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Alizée Vazeille",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/sde",
+                  "type": "Type",
+                  "_label": "Sound engineer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Collaboration au son"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/vdg",
+              "type": "Type",
+              "_label": "Videographer"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Quentin Vigier",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/vdg",
+                  "type": "Type",
+                  "_label": "Videographer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Vidéo"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Claire Willemann",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/vdg",
+                  "type": "Type",
+                  "_label": "Videographer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Cadre vidéo"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Gilles Borel",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/vdg",
+                  "type": "Type",
+                  "_label": "Videographer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Collaboration à la vidéo"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Pierre Olympieff",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/vdg",
+                  "type": "Type",
+                  "_label": "Videographer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Collaboration à la vidéo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/cst",
+              "type": "Type",
+              "_label": "Costume designer"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Clément Vachelard",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/cst",
+                  "type": "Type",
+                  "_label": "Costume designer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Costumes"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Clément Vachelard",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/cst",
+                  "type": "Type",
+                  "_label": "Aline Courvoisier"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Collaboration à la couture et à l’habillage"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Karine Dubois",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/cst",
+                  "type": "Type",
+                  "_label": "Costume designer"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Collaboration à la couture et à l’habillage"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Clément Vachelard",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/cst",
+                  "type": "Type",
+                  "_label": "Andréa Matweber"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Assistanat aux costumes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/stm",
+              "type": "Type",
+              "_label": "Stage Manager"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Mateo Gastaldello",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/stm",
+                  "type": "Type",
+                  "_label": "Stage Manager"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Régie plateau"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Sylvain Sarrailh",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/stm",
+                  "type": "Type",
+                  "_label": "Stage Manager"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Régie plateau"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Mansour Walter",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/stm",
+                  "type": "Type",
+                  "_label": "Stage Manager"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Régie plateau"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/ill",
+              "type": "Type",
+              "_label": "Illustrator"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/000000000001",
+              "type": "Person",
+              "_label": "Alain Cruchon",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/ill",
+                  "type": "Type",
+                  "_label": "Illustrator"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Dessin"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000001",
+              "type": "Person",
+              "_label": "Alain Cruchon",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/ill",
+                  "type": "Type",
+                  "_label": "Illustrator"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "role as appears in doc",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300435423",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Gilles Perrier"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/tcd",
+              "type": "Type",
+              "_label": "Technical Director"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Yves Fröhle",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/tcd",
+                  "type": "Type",
+                  "_label": "Technical Director"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Direction technique"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Margaux Blanc",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/tcd",
+                  "type": "Type",
+                  "_label": "Technical Director"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Coordination technique"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Margaret Labbé",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/tcd",
+                  "type": "Type",
+                  "_label": "Technical Director"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Coordination technique"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/pmn",
+              "type": "Type",
+              "_label": "Production Manager"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Pauline Pierron",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/pmn",
+                  "type": "Type",
+                  "_label": "Production Manager"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Direction de production"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Pascale Reneau",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/pmn",
+                  "type": "Type",
+                  "_label": "Production Manager"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Production"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Elyse Blanquet",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/pmn",
+                  "type": "Type",
+                  "_label": "Production Manager"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Assistanat à la production"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/pro",
+              "type": "Type",
+              "_label": "Producer"
             }
           ],
           "carried_out_by": [
@@ -326,9 +1591,9 @@
         {
           "technique": [
             {
-              "id": "production/soutien/financement",
+              "id": "http://id.loc.gov/vocabulary/relators/pro",
               "type": "Type",
-              "_label": "production/soutien/financement"
+              "_label": "Co-production"
             }
           ],
           "carried_out_by": [
@@ -357,15 +1622,197 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "https://data.stage.org/auth/140000000041",
+              "type": "Group",
+              "_label": "Les Théâtres de la Ville de Luxembourg",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prn",
+                  "type": "Type",
+                  "_label": "Production Companies",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Coproduction"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/140000000041",
+              "type": "Group",
+              "_label": "Teatre Nacional de Catalunya (Barcelone)",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prn",
+                  "type": "Type",
+                  "_label": "Production Companies",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Coproduction"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/140000000041",
+              "type": "Group",
+              "_label": "ThéâtredelaCité Centre dramatique national Toulouse Occitanie",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prn",
+                  "type": "Type",
+                  "_label": "Production Companies",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Coproduction"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/140000000041",
+              "type": "Group",
+              "_label": "Bonlieu Scène nationale d’Annecy",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prn",
+                  "type": "Type",
+                  "_label": "Production Companies",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Coproduction"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/140000000041",
+              "type": "Group",
+              "_label": "Théâtre de Liège",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prn",
+                  "type": "Type",
+                  "_label": "Production Companies",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Coproduction"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/140000000041",
+              "type": "Group",
+              "_label": "DC&J Création",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prn",
+                  "type": "Type",
+                  "_label": "Production Companies",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Coproduction"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/140000000041",
+              "type": "Group",
+              "_label": "Festival d’Avignon",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prn",
+                  "type": "Type",
+                  "_label": "Production Companies",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Coproduction"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
           "technique": [
             {
-              "id": "production/soutien/financement",
+              "id": "http://id.loc.gov/vocabulary/relators/fnd",
               "type": "Type",
-              "_label": "production/soutien/financement"
+              "_label": "Funder"
             }
           ],
           "carried_out_by": [
@@ -375,9 +1822,61 @@
               "_label": "Fondation Ernst Göhner (Zoug)",
               "classified_as": [
                 {
-                  "id": "http://id.loc.gov/vocabulary/relators/spn",
+                  "id": "http://id.loc.gov/vocabulary/relators/fnd",
                   "type": "Type",
-                  "_label": "Sponsor",
+                  "_label": "Funder",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Avec le soutien de"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000999",
+              "type": "Group",
+              "_label": "Tax Shelter du Gouvernement fédéral de Belgique",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/fnd",
+                  "type": "Type",
+                  "_label": "Funder",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Avec le soutien de"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000999",
+              "type": "Group",
+              "_label": "Inver Tax Shelter et pour la 78 e édition du Festival d’Avignon : Villa Albertine (New York)",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/fnd",
+                  "type": "Type",
+                  "_label": "Funder",
                   "referred_to_by": [
                     {
                       "type": "LinguisticObject",
@@ -400,9 +1899,9 @@
         {
           "technique": [
             {
-              "id": "production/soutien/financement",
+              "id": "http://id.loc.gov/vocabulary/relators/spn",
               "type": "Type",
-              "_label": "production/soutien/financement"
+              "_label": "Sponsor"
             }
           ],
           "carried_out_by": [
@@ -429,6 +1928,485 @@
                       "content": "Remerciements"
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/124000000421",
+              "type": "Person",
+              "_label": "Romuald Liteau-Lego",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/page/aat/300026687",
+                  "type": "Type",
+                  "_label": "Aknowledgement",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Remerciements"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/124000000421",
+              "type": "Person",
+              "_label": "Rachel de Dardel",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/page/aat/300026687",
+                  "type": "Type",
+                  "_label": "Aknowledgement",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Remerciements"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/124000000421",
+              "type": "Person",
+              "_label": "Judith Zagury",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/page/aat/300026687",
+                  "type": "Type",
+                  "_label": "Aknowledgement",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Remerciements"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/124000000421",
+              "type": "Person",
+              "_label": "l’équipe du Centre dramatique national Orléans Centre-Val de Loire",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prn",
+                  "type": "Type",
+                  "_label": "Production Companies",
+                  "referred_to_by": [
+                    {
+                      "type": "LinguisticObject",
+                      "_label": "as appears in program",
+                      "classified_as": [
+                        {
+                          "id": "http://vocab.getty.edu/page/aat/300456607",
+                          "type": "Type",
+                          "_label": "Literal transcription"
+                        }
+                      ],
+                      "content": "Remerciements"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "technique": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/prd",
+              "type": "Type",
+              "_label": "Production personel"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Marie Fortuit",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Dramaturgie et assistanat à la mise en scène"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Marion Platevoet",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Dramaturgie et assistanat à la mise en scène"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Baudouin Woehl",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Dramaturgie et assistanat à la mise en scène"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Noémi Michel",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Conseil dramaturgique diversité et politiques de représentation"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Tristan Plot",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Éducation des oiseaux"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Hugo Bertrand",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Serrurerie"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Wondimu Bussy",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Serrurerie"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Yannick Bouchex",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Menuiserie"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Balthazar Boisseau",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Menuiserie"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Mathias Brügger",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Menuiserie"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Julien Fleureau",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Renfort construction"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/600000000061",
+              "type": "Person",
+              "_label": "Vincent Wüthrich",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Conception motorisation de la voiture"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000999",
+              "type": "Group",
+              "_label": "Ateliers de la Comédie de Genève",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Construction des décors"
+                }
+              ]
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000999",
+              "type": "Group",
+              "_label": "Jeune Théâtre National (Paris)",
+              "classified_as": [
+                {
+                  "id": "http://id.loc.gov/vocabulary/relators/prd",
+                  "type": "Type",
+                  "_label": "Production personel"
+                }
+              ],
+              "referred_to_by": [
+                {
+                  "type": "LinguisticObject",
+                  "_label": "as appears in the program",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/page/aat/300456607",
+                      "type": "Type",
+                      "_label": "Literal transcription"
+                    }
+                  ],
+                  "content": "Avec la participation artistique"
                 }
               ]
             }

@@ -33,24 +33,7 @@
           "_label": "Title"
         }
       ],
-      "content": "Absalon, Absalon ! show programme",
-      "language": [
-        {
-          "id": "http://vocab.getty.edu/aat/300388306",
-          "type": "Language",
-          "label": "French"
-        },
-        {
-          "id": "http://vocab.getty.edu/aat/300388277",
-          "type": "Language",
-          "_label": "English"
-        },
-        {
-          "id": "http://vocab.getty.edu/aat/300389311",
-          "type": "Language",
-          "_label": "Spanish"
-        }
-      ]
+      "content": "Festival d'Avignon 78e édition 2024 Séverine Chavrier Absalon, Absalon !"
     }
   ],
   "carries": [
@@ -188,6 +171,23 @@
           "_label": "Person"
         }
       ]
+    }
+  ],
+  "subject_of": [
+    {
+      "id": "https://data.stage.org/prod/000000000001",
+      "type": "Type",
+      "_label": "Activity"
+    },
+    {
+      "id": "https://data.stage.org/shows/000000000001",
+      "type": "Type",
+      "_label": "Activity"
+    },
+    {
+      "id": "https://data.stage.org/sets/Absalon",
+      "type": "Type",
+      "_label": "Activity"
     }
   ]
 }
