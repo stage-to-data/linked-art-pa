@@ -246,6 +246,7 @@
                           ]
                         }
                       ],
+                      "assigned_property": "takes_information_from",
                       "assigned": [
                         {
                           "type": "DigitalObject",
@@ -2432,6 +2433,7 @@
           ]
         }
       ],
+      "assigned_property": "takes_information_from",
       "assigned": [
         {
           "type": "HumanMadeObject",

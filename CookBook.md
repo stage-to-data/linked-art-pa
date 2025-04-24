@@ -425,7 +425,7 @@ Example:
     "type": "MonetaryAmount",
     "classified_as": [
       {
-        "id": "http://vocab.getty.edu/aat/300417247", 
+        "id": "http://vocab.getty.edu/aat/300417247",
         "type": "Type",
         "_label": "List Prices"
       }
@@ -455,7 +455,7 @@ Example:
     "type": "MonetaryAmount",
     "classified_as": [
       {
-        "id": "http://vocab.getty.edu/aat/300417247", 
+        "id": "http://vocab.getty.edu/aat/300417247",
         "type": "Type",
         "_label": "List Prices"
       }
@@ -686,6 +686,7 @@ Example:
           ]
         }
       ],
+      "assigned_property": "takes_information_from",
       "assigned": [
         {
           "type": "LinguisticObject",
@@ -741,4 +742,3 @@ A show programme is modelled as a `HumanMadeObject`, which carries textual and v
 `HumanMadeObject` vs `LinguisticObject`: The programme as a physical or digital artefact is a HumanMadeObject. The textual components (biographies, forewords, etc.) are embedded via carries → LinguisticObject.
 
 Content Modelling: In Absalom, each textual unit within the programme is treated as a discrete object. This enables better indexing, multilingual support, and fine-grained access to programme sections (e.g., a biography can be reused or translated independently).
-
