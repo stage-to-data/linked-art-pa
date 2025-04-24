@@ -55,7 +55,7 @@
           "_label": "French"
         }
       ],
-      "subject_of": [
+      "about": [
         {
           "id": "https://data.stage.org/auth/000000000001",
           "type": "Type",
@@ -81,11 +81,11 @@
           "_label": "French"
         }
       ],
-      "subject_of": [
+      "about": [
         {
-          "id": "https://data.stage.org/auth/000000000001",
+          "id": "https://data.stage.org/prod/000000000001",
           "type": "Type",
-          "_label": "Person"
+          "_label": "Activity"
         }
       ]
     },
@@ -107,11 +107,11 @@
           "_label": "English"
         }
       ],
-      "subject_of": [
+      "about": [
         {
-          "id": "https://data.stage.org/auth/000000000001",
+          "id": "https://data.stage.org/prod/000000000001",
           "type": "Type",
-          "_label": "Person"
+          "_label": "Activity"
         }
       ]
     },
@@ -133,11 +133,11 @@
           "_label": "Spanish"
         }
       ],
-      "subject_of": [
+      "about": [
         {
-          "id": "https://data.stage.org/auth/000000000001",
+          "id": "https://data.stage.org/prod/000000000001",
           "type": "Type",
-          "_label": "Person"
+          "_label": "Activity"
         }
       ]
     },
@@ -159,7 +159,7 @@
           "_label": "French"
         }
       ],
-      "subject_of": [
+      "about": [
         {
           "id": "https://data.stage.org/prod/000000000001",
           "type": "Type",
@@ -173,21 +173,22 @@
       ]
     }
   ],
-  "subject_of": [
-    {
-      "id": "https://data.stage.org/prod/000000000001",
-      "type": "Type",
-      "_label": "Activity"
-    },
-    {
-      "id": "https://data.stage.org/shows/000000000001",
-      "type": "Type",
-      "_label": "Activity"
-    },
-    {
-      "id": "https://data.stage.org/sets/Absalon",
-      "type": "Type",
-      "_label": "Activity"
-    }
-  ]
+  {
+    "type": "LinguisticObject",
+    "_label": "Other content",
+    "classified_as": [
+      {
+        "id": "http://vocab.getty.edu/aat/300192825",
+        "type": "Type",
+        "_label": "other texts appearing in the program"
+      }
+    ],
+    "content": " COPIER-COLLER A INSERER"
+      {
+        "id": "http://vocab.getty.edu/aat/300388306",
+        "type": "Language",
+        "_label": "French"
+      }
+    ],
+  }
 }
