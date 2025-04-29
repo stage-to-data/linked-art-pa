@@ -35,9 +35,9 @@ This structure allows:
 Additional objects can be incorporated:
 - **Text** (as a `Textual Object`, e.g., the play).
 - **Festival** (as an `Activity`, to be developed).
-- **Season Programme** (as a `Textual` or `Digital Object`, to be developed).
-- **Show Programme** (as a `Textual` or `Digital Object`, to be developed).
-- **Sets (show and pages)** (as `Sets`, to be developed).
+- **Season Programme** (as a `Textual` or `Digital Object`).
+- **Show Programme** (as a `Textual` or `Digital Object`).
+- **Sets (show and pages)** (as `Sets`).
 
 ### 2. Source Attribution
 
