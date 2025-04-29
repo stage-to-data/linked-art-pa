@@ -457,32 +457,6 @@
     "begin_of_the_begin": "2024-07-03T00:00:00Z",
     "end_of_the_end": "2024-07-21T00:00:00Z"
   },
-  "attributed_by": [
-    {
-      "type": "AttributeAssignment",
-      "identified_by": [
-        {
-          "type": "Type",
-          "id": "http://vocab.getty.edu/page/aat/300194116",
-          "_label": "Festival books",
-          "classified_as": [
-            {
-              "id": "https://vocab.getty.edu/aat/300311936",
-              "type": "Type",
-              "_label": "primary source"
-            }
-          ]
-        }
-      ],
-      "assigned": [
-        {
-          "type": "HumanMadeObject",
-          "id": "https://data.stage.org/iiif/manifest/000000000001",
-          "_label": "Festival Avignon OFF 2024 General Programme"
-        }
-      ]
-    }
-  ],
   "referred_to_by": [
     {
       "type": "LinguisticObject",
