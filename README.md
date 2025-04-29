@@ -4,7 +4,7 @@
 
 This project extends the Linked Art ontology to better represent performing arts data. It was developed as part of the ERC-funded project **STAGE (From Stage to Data)**, which explores the paradigm shift of digital traces for contemporary performing arts historiography.  
 
-- **Project Website**: STAGE  
+- **Project Website**: [STAGE](https://stage-to-data.huma-num.fr/en/)  
 - **Contributors**: Clarisse Bardiot, Bernard Jacquemin, Antonios Lagarias, Jeanne Fras  
 - **Contact**: clarisse(dot)bardiot(at)univ-rennes2(dot)fr  
 
@@ -37,6 +37,7 @@ Additional objects can be incorporated:
 - **Festival** (as an `Activity`, to be developed).
 - **Season Programme** (as a `Textual` or `Digital Object`, to be developed).
 - **Show Programme** (as a `Textual` or `Digital Object`, to be developed).
+- **Sets (show and pages)** (as `Sets`, to be developed).
 
 ### 2. Source Attribution
 
@@ -51,23 +52,10 @@ Additional objects can be incorporated:
 
 ### 4. New Property for Roles (e.g., an actor interpreting Hamlet)
 
-- Introduction of a new property: `has_character`, refining role descriptions.
+- Introduction of a new property: `portrayed`, refining role descriptions.
 - Enhances existing **Linked Art** and **CIDOC CRM** frameworks.
 
-### 5. Class Extensions for Existing Properties
-
-- **Event Dimension**:  
-  - Extends `Activity` to include the existing `dimension` property, categorizing ticket prices and performance duration.
-  - Using `used_specific_object` would require the creation of a non-existent ticket source, which is inaccurate.
-  - This extension would require an evolution of **CIDOC**.  
-  - `timespan` is already used for production start and end dates (*see **cookbook** for examples*).
-
-- **Language Property for Events**:  
-  - Adding language at the **B (Event) level** rather than **A (Work) level** allows multilingual performances to be accurately modeled.
-  - Example: *Germinal* was performed in different languages depending on the venue.
-  - Requires an extension of **CIDOC CRM**.
-
-### 6. Getty AAT Vocabulary Enhancements
+### 5. Getty AAT Vocabulary Enhancements
 
 We propose additions to the **Getty Art & Architecture Thesaurus (AAT)** to better represent performing arts venues and events:
 
@@ -80,7 +68,7 @@ We propose additions to the **Getty Art & Architecture Thesaurus (AAT)** to bett
   - `"Performance (Performing Arts Show)"` is an instance of `"Performances (Creative Event)"` (**AAT 3000069200**).  
   - This distinction is crucial, as performances can differ between iterations.  
 
-### 7. Controlled Vocabulary for Roles (Professions)
+### 6. Controlled Vocabulary for Roles (Professions)
 
 For profession-related vocabulary, we use the **Library of Congress** vocabulary:  
 🔗 [https://id.loc.gov/vocabulary/relators.htm](https://id.loc.gov/vocabulary/relators.htm)  
@@ -129,6 +117,5 @@ Our work is informed by:
 
 ## Future Work
 
-- Modeling **festivals, season programmes, and show programmes** for better structured performing arts data.
 - Further refinements based on case studies and community feedback.
 - **Collaboration with Getty Vocabulary Program** for proposed term additions.
