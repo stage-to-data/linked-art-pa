@@ -19,6 +19,17 @@
   ],
   "identified_by": [
     {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Title"
+        }
+      ],
+      "content": "One page of Festival Avignon OFF 2024 General Programme"
+    },
+    {
       "type": "Identifier",
       "classified_as": [
         {
