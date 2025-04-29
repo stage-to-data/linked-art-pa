@@ -172,22 +172,5 @@
         }
       ]
     }
-  ],
-  "subject_of": [
-    {
-      "id": "https://data.stage.org/prod/000000000001",
-      "type": "Type",
-      "_label": "Activity"
-    },
-    {
-      "id": "https://data.stage.org/shows/000000000001",
-      "type": "Type",
-      "_label": "Activity"
-    },
-    {
-      "id": "https://data.stage.org/sets/Absalon",
-      "type": "Type",
-      "_label": "Activity"
-    }
   ]
 }
