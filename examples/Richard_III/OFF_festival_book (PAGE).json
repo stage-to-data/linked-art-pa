@@ -1,0 +1,45 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "type": "HumanMadeObject",
+  "id": "https://data.stage.org/iiif/manifest/000000000001",
+  "_label": "Festival Avignon OFF 2024 General Programme - page 238",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/page/aat/300194116",
+      "type": "Type",
+      "_label": "festival books"
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://data.stage.org/sets/FestivalProgramme",
+      "type": "Set",
+      "_label": "Set of Pages comprising the Festival Program"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Identifier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300445022",
+          "type": "Type",
+          "_label": "page numbers"
+        }
+      ],
+      "content": "238"
+    }
+  ],
+  "about": [
+    {
+      "id": "https://data.stage.org/prod/000000000001",
+      "type": "Activity",
+      "_label": "Richard III in Avignon OFF (Season)"
+    },
+    {
+    "id": "https://data.stage.org/sets/RichardIII",
+    "type": "Set",
+    "_label": "William Mesguish's Richard III in Avignon (set of shows)"
+    }
+  ]
+}

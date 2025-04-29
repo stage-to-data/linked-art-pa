@@ -60,7 +60,7 @@
       },
       "influenced_by": [
         {
-          "id": "https://data.stage.org/text/000000000101 (OFF_text.json)",
+          "id": "https://data.stage.org/text/000000000101",
           "type": "LinguisticObject",
           "_label": "Shakespeare Richard III"
         }
@@ -72,32 +72,6 @@
       "id": "http://vocab.getty.edu/aat/300388306",
       "type": "Language",
       "label": "French"
-    }
-  ],
-  "attributed_by": [
-    {
-      "type": "AttributeAssignment",
-      "identified_by": [
-        {
-          "type": "Type",
-          "id": "http://vocab.getty.edu/page/aat/300194116",
-          "_label": "Festival books",
-          "classified_as": [
-            {
-              "id": "https://vocab.getty.edu/aat/300311936",
-              "type": "Type",
-              "_label": "primary source"
-            }
-          ]
-        }
-      ],
-      "assigned": [
-        {
-          "type": "HumanMadeObject",
-          "id": "https://data.stage.org/iiif/manifest/000000000001",
-          "_label": "Festival Avignon OFF 2024 General Programme"
-        }
-      ]
     }
   ]
 }

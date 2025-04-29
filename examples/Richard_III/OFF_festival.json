@@ -1,0 +1,52 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/festivals/000000000001",
+  "type": "Activity",
+  "_label": "Festival OFF d'Avignon 2024",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/page/aat/300386366",
+      "type": "Type",
+      "_label": "Art festivals"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Title"
+        }
+      ],
+      "content": "Festival OFF d'Avignon 2024"
+    }
+  ],
+  "took_place_at": [
+    {
+      "id": "https://data.stage.org/auth/100000000001",
+      "type": "Place",
+      "_label": "Avignon, City",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300008389",
+          "type": "Type",
+          "_label": "cities"
+        }
+      ]
+    }
+  ],
+  "used_specific_object": [
+    {
+      "id": "https://data.stage.org/sets/GeneralProgramme",
+      "type": "Set",
+      "_label": "Festival OFF d'Avignon 2024 General Programme"
+    }
+  ],
+  "timespan": {
+    "type": "TimeSpan",
+    "begin_of_the_begin": "2024-07-3T00:00:00Z",
+    "end_of_the_end": "2024-07-21T00:00:00Z"
+  }
+}
