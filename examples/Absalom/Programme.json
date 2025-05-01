@@ -55,7 +55,7 @@
           "_label": "French"
         }
       ],
-      "about": [
+      "subject_of": [
         {
           "id": "https://data.stage.org/auth/000000000001",
           "type": "Type",
@@ -81,7 +81,7 @@
           "_label": "French"
         }
       ],
-      "about": [
+      "subject_of": [
         {
           "id": "https://data.stage.org/prod/000000000001",
           "type": "Type",
@@ -107,7 +107,7 @@
           "_label": "English"
         }
       ],
-      "about": [
+      "subject_of": [
         {
           "id": "https://data.stage.org/prod/000000000001",
           "type": "Type",
@@ -133,7 +133,7 @@
           "_label": "Spanish"
         }
       ],
-      "about": [
+      "subject_of": [
         {
           "id": "https://data.stage.org/prod/000000000001",
           "type": "Type",
@@ -159,7 +159,7 @@
           "_label": "French"
         }
       ],
-      "about": [
+      "subject_of": [
         {
           "id": "https://data.stage.org/prod/000000000001",
           "type": "Type",
@@ -171,24 +171,25 @@
           "_label": "Person"
         }
       ]
+    },
+    {
+      "type": "LinguisticObject",
+      "_label": "other information",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300263751",
+          "type": "Type",
+          "_label": "Text"
+        }
+      ],
+      "content": "**Dates de tournée**<br>après le Festival<br>**17 et 29 janvier 2025** — Comédie de Genève (Suisse)<br>**5 et 6 février 2025** — Les Théâtres de la Ville de Luxembourg<br>**13 et 14 février 2025** — Théâtre de Liège (Belgique)<br>**Du 25 mars au 11 avril 2025** — Odéon-Théâtre de l’Europe (Paris)<br>**23 et 24 avril 2025** — Centre dramatique national, Orléans Centre-Val de Loire<br>**À venir...**<br>**Spectacle**<br>• *Avignon, une école* de Fanny de Chaillé<br>**10, 11, 12 juillet à 21h et 23h59** au Cloître des Célestins<br>Quinze jeunes comédiens et comédiennes traversent l’histoire du Festival d’Avignon pour raconter leur propre histoire.<br>Fifteen young actors and actresses explore the history of the Festival d’Avignon to tell their own story.<br>Pour vous présenter cette édition, plus de 1500 personnes, artistes, techniciens et équipes d’organisation ont uni leurs efforts, leur enthousiasme pendant plusieurs mois. Plus de la moitié relève du régime spécifique d’intermittent du spectacle.<br><br>**Festival d’Avignon**, Cloître Saint-Louis, 20 rue du Portail Boquier, 84000 Avignon<br>Tél. +33 (0)4 90 27 66 50 — [festival-avignon.com](https://festival-avignon.com)<br>**#FDA24**<br>Téléchargez l’application du Festival d’Avignon pour tout savoir de l’édition 2024 !<br><br>Les annonces en salle en espagnol ont été enregistrées grâce à l’aimable collaboration du Centro Dramático Nacional d'Espagne.<br>The Spanish announcements in the venues have been recorded thanks to the kind collaboration of the Centro Dramático Nacional of Spain.<br><br>Visuel 78e édition © Permeable<br>**Licences Festival d’Avignon** : L-R-22-010889, L-R-22-010887 et L-R-22-010888",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "_label": "French"
+        }
+      ]
     }
-  ],
-  {
-    "type": "LinguisticObject",
-    "_label": "Other content",
-    "classified_as": [
-      {
-        "id": "http://vocab.getty.edu/aat/300192825",
-        "type": "Type",
-        "_label": "other texts appearing in the program"
-      }
-    ],
-    "content": " COPIER-COLLER A INSERER"
-      {
-        "id": "http://vocab.getty.edu/aat/300388306",
-        "type": "Language",
-        "_label": "French"
-      }
-    ],
-  }
+  ]
 }

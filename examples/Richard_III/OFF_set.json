@@ -4,36 +4,10 @@
   "type": "Set",
   "_label": "William Mesguish's Richard III in Avignon (set of shows)",
   "classified_as": [
-      {
-        "id": "http://vocab.getty.edu/page/aat/300419392",
-        "type": "Type",
-        "_label": "Collection"
-      }
-    ],
-  "attributed_by": [
     {
-      "type": "AttributeAssignment",
-      "identified_by": [
-        {
-          "type": "Type",
-          "id": "http://vocab.getty.edu/page/aat/300194116",
-          "_label": "festival books",
-          "classified_as": [
-            {
-              "id": "https://vocab.getty.edu/aat/300311936",
-              "type": "Type",
-              "_label": "primary source"
-            }
-          ]
-        }
-      ],
-      "assigned": [
-        {
-          "type": "DigitalObject",
-          "id": "https://data.stage.org/iiif/manifest/000000000001",
-          "_label": "Festival Avignon OFF 2024 General Program"
-        }
-      ]
+      "id": "http://vocab.getty.edu/page/aat/300419392",
+      "type": "Type",
+      "_label": "Collection"
     }
   ],
   "used_for": [
