@@ -1,0 +1,50 @@
+{
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://data.stage.org/text/000000000003",
+    "type": "LinguisticObject",
+    "_label": "Cesare 1950",
+    "identified_by": [
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404670",
+            "type": "Type",
+            "_label": "Primary Name"
+          }
+        ],
+        "content": "Cesare 1950",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300455833",
+            "type": "Language",
+            "label": "French"
+          }
+        ]
+      }
+    ],
+    "produced_by": {
+      "type": "Production",
+      "technique": [
+        {
+          "id":"http://vocab.getty.edu/page/aat/300054698",
+          "type": "Type",
+          "_label": "Writing"
+        }
+      ],
+      "carried_out_by": [
+        {
+          "id": "https://data.stage.org/auth/000000000003",
+          "type": "Person",
+          "_label": "Jean-Pierre Bisson",
+          "classified_as": [
+            {
+              "id": "http://id.loc.gov/vocabulary/relators/aut",
+              "type": "Type",
+              "_label": "author"
+            }
+          ]
+        }
+      ]
+    }
+  }

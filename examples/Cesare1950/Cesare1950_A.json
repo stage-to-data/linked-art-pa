@@ -1,0 +1,110 @@
+{
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://data.stage.org/works/000000000003",
+    "type": "PropositionalObject",
+    "_label": "The show of Cesare 1950 as conceived by Jean-Pierre Bisson",
+    "classified_as": [
+        {
+        "id": "https://vocab.getty.edu/aat/300387357",
+        "type": "Type",
+        "_label": "works (general, creative)"
+        }
+    ],
+    "identified_by": [
+        {
+        "type": "Name",
+        "classified_as": [
+            {
+            "id": "http://vocab.getty.edu/aat/300404670",
+            "type": "Type",
+            "_label": "Title"
+            }
+        ],
+        "content": "Cesare 1950",
+        "language": [
+            {
+            "id": "http://vocab.getty.edu/aat/300388306",
+            "type": "Language",
+            "label": "French"
+            }
+        ]
+        }
+    ],
+    "produced_by": [
+        {
+        "type": "Production",
+        "part": [
+            {
+            "type": "Production",
+            "technique": [
+                {
+                "id":"http://vocab.getty.edu/page/aat/300404387",
+                "type": "Type",
+                "_label": "Creating"
+                }
+            ],
+            "carried_out_by": [
+                {
+                "id": "https://data.stage.org/auth/000000000003",
+                "type": "Person",
+                "_label": "Jean-Pierre Bisson",
+                "classified_as": [
+                    {
+                    "id": "http://id.loc.gov/vocabulary/relators/drt",
+                    "type": "Type",
+                    "_label": "director"
+                    }
+                ]
+                }
+            ]
+            }
+        ],
+        "influenced_by": [
+            {
+            "id": "https://data.stage.org/text/000000000101 (text.json)",
+            "type": "LinguisticObject",
+            "_label": "Cesare 1950"
+            }
+            ]
+            }
+        ],
+        "timespan": {
+            "type": "TimeSpan",
+            "_label": "1974",
+            "begin_of_the_begin": "1974-01-01T00:00:00Z"
+        },
+    "language": [
+        {
+        "id": "http://vocab.getty.edu/aat/300388306",
+        "type": "Language",
+        "label": "French"
+        }
+    ],
+    "attributed_by": [
+        {
+        "type": "AttributeAssignment",
+        "identified_by": [
+            {
+            "type": "Type",
+            "id": "https://vocab.getty.edu/aat/300027216",
+            "_label": "show programme",
+            "classified_as": [
+                {
+                "id": "https://vocab.getty.edu/aat/300311936",
+                "type": "Type",
+                "_label": "primary source"
+                }
+            ]
+            }
+        ],
+        "assigned_property": "takes_information_from",
+        "assigned": [
+            {
+            "type": "HumanMadeObject",
+            "id": "https://data.stage.org/programs/000000000003",
+            "_label": "Cesare 1950 show programme"
+            }
+        ]
+        }
+    ]
+}

@@ -1,0 +1,666 @@
+{
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://data.stage.org/prod/000000000003",
+    "type": "Activity",
+    "_label": "Cesare 1950 in Avignon In",
+    "classified_as": [
+      {
+        "id": "https://vocab.getty.edu/aat/300069200",
+        "type": "Type",
+        "_label": "Performances (creative events)",
+        "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/page/aat/300069101",
+          "type": "Type",
+          "_label": "premieres",
+          "classifed_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300379393",
+              "type": "Type",
+              "_label": "International"
+            }
+          ],
+          "referred_to_by": [
+            {
+              "type": "LinguisticObject",
+              "_label": "category creation or not",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/page/aat/300435423",
+                  "type": "Type",
+                  "_label": "Literal transcription"
+                }
+              ],
+              "content": "Création"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+    "identified_by": [
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404670",
+            "type": "Type",
+            "_label": "Title"
+          }
+        ],
+        "content": "Cesare 1950"
+      }
+    ],
+    "part_of": [
+      {
+        "id": "https://data.stage.org/festivals/000000000001",
+        "type": "Activity",
+        "_label": "Festival Avignon IN 1974"
+      }
+    ],
+    "influenced_by": [
+      {
+        "id": "https://data.stage.org/works/000000000003 (Cesare1950_A.json)",
+        "type": "PropositionalObject",
+        "_label": "The show of Cesare 1950 as conceived by Jean-Pierre Bisson"
+      }
+    ],
+    "took_place_at": [
+      {
+        "id": "https://data.stage.org/auth/100000000005",
+        "type": "Place",
+        "_label": "Cloître des Carmes",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/page/aat/300121919",
+            "type": "Type",
+            "_label": "performing arts structures"
+          }
+        ]
+      }
+    ],
+    "produced_by":[
+      {
+        "type": "Production",
+        "part": [
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/drt",
+                "type": "Type",
+                "_label": "director"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/000000000004",
+                "type": "Person",
+                "_label": "Jean-Pierre Bisson",
+                "referred_to_by": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "role as appears in doc",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300435423",
+                        "type": "Type",
+                        "_label": "Literal transcription"
+                      }
+                    ],
+                    "content": "Mise en scène"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "https://data.bnf.fr/vocabulary/roles/r2280",
+                "type": "Type",
+                "_label": "scénographe"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/600000000061",
+                "type": "Person",
+                "_label": "François Lafarge",
+                "classified_as": [
+                  {
+                    "id": "https://data.bnf.fr/vocabulary/roles/r2280",
+                    "type": "Type",
+                    "_label": "scénographe"
+                  }
+                ],
+                "referred_to_by": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "as appears in the program",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300456607",
+                        "type": "Type",
+                        "_label": "Literal transcription"
+                      }
+                    ],
+                    "content": "Décorateur"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "https://data.bnf.fr/vocabulary/roles/r505",
+                "type": "Type",
+                "_label": "Assistant"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/600000000061",
+                "type": "Person",
+                "_label": "François Lafarge",
+                "classified_as": [
+                  {
+                    "id": "https://data.bnf.fr/vocabulary/roles/r505",
+                    "type": "Type",
+                    "_label": "Assistant"
+                  }
+                ],
+                "referred_to_by": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "as appears in the program",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300456607",
+                        "type": "Type",
+                        "_label": "Literal transcription"
+                      }
+                    ],
+                    "content": "Assistant"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/sds",
+                "type": "Type",
+                "_label": "Sound designer"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/60000000004",
+                "type": "Person",
+                "_label": "Jean-Pierre Bisson",
+                "classified_as": [
+                  {
+                    "id": "http://id.loc.gov/vocabulary/relators/sds",
+                    "type": "Type",
+                    "_label": "Sound designer"
+                  }
+                ],
+                "referred_to_by": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "as appears in the program",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300456607",
+                        "type": "Type",
+                        "_label": "Literal transcription"
+                      }
+                    ],
+                    "content": "Bande sonore"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/act",
+                "type": "Type",
+                "_label": "actor"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/000000000099",
+                "type": "Person",
+                "_label": "Chantal Darget",
+                "classified_as": [
+                  {
+                    "id": "http://id.loc.gov/vocabulary/relators/act",
+                    "type": "Type",
+                    "_label": "actor"
+                  }
+                ],
+                "portrayed": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "name of the character",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300410267",
+                        "type": "Type",
+                        "_label": "character"
+                      }
+                    ],
+                    "content": "une Princesse Nathalie et l’épouse de Pietro"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/act",
+                "type": "Type",
+                "_label": "actor"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/000000000098",
+                "type": "Person",
+                "_label": "Christine Fersen",
+                "classified_as": [
+                  {
+                    "id": "http://id.loc.gov/vocabulary/relators/act",
+                    "type": "Type",
+                    "_label": "actor"
+                  }
+                ],
+                "portrayed": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "name of the character",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300410267",
+                        "type": "Type",
+                        "_label": "character"
+                      }
+                    ],
+                    "content": "Marie une fille publique"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/act",
+                "type": "Type",
+                "_label": "actor"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/000000000097",
+                "type": "Person",
+                "_label": "Nicole Garcia",
+                "classified_as": [
+                  {
+                    "id": "http://id.loc.gov/vocabulary/relators/act",
+                    "type": "Type",
+                    "_label": "actor"
+                  }
+                ],
+                "portrayed": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "name of the character",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300410267",
+                        "type": "Type",
+                        "_label": "character"
+                      }
+                    ],
+                    "content": "Catharina une souillon"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/act",
+                "type": "Type",
+                "_label": "actor"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/000000000096",
+                "type": "Person",
+                "_label": "Florence Giorgetti",
+                "classified_as": [
+                  {
+                    "id": "http://id.loc.gov/vocabulary/relators/act",
+                    "type": "Type",
+                    "_label": "actor"
+                  }
+                ],
+                "portrayed": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "name of the character",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300410267",
+                        "type": "Type",
+                        "_label": "character"
+                      }
+                    ],
+                    "content": "Buca une viveuse"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/act",
+                "type": "Type",
+                "_label": "actor"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/000000000095",
+                "type": "Person",
+                "_label": "Jean-Pierre Bisson",
+                "classified_as": [
+                  {
+                    "id": "http://id.loc.gov/vocabulary/relators/act",
+                    "type": "Type",
+                    "_label": "actor"
+                  }
+                ],
+                "portrayed": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "name of the character",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300410267",
+                        "type": "Type",
+                        "_label": "character"
+                      }
+                    ],
+                    "content": "un Prince de Hombourg et Pietro"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/act",
+                "type": "Type",
+                "_label": "actor"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/000000000094",
+                "type": "Person",
+                "_label": "Antoine Bourseiller",
+                "classified_as": [
+                  {
+                    "id": "http://id.loc.gov/vocabulary/relators/act",
+                    "type": "Type",
+                    "_label": "actor"
+                  }
+                ],
+                "portrayed": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "name of the character",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300410267",
+                        "type": "Type",
+                        "_label": "character"
+                      }
+                    ],
+                    "content": "Cesare"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/act",
+                "type": "Type",
+                "_label": "actor"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/000000000093",
+                "type": "Person",
+                "_label": "Jean-Paul Farré",
+                "classified_as": [
+                  {
+                    "id": "http://id.loc.gov/vocabulary/relators/act",
+                    "type": "Type",
+                    "_label": "actor"
+                  }
+                ],
+                "portrayed": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "name of the character",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300410267",
+                        "type": "Type",
+                        "_label": "character"
+                      }
+                    ],
+                    "content": "Olivier-Jean le fils de Pietro"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/act",
+                "type": "Type",
+                "_label": "actor"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/000000000092",
+                "type": "Person",
+                "_label": "François Lafarge",
+                "classified_as": [
+                  {
+                    "id": "http://id.loc.gov/vocabulary/relators/act",
+                    "type": "Type",
+                    "_label": "actor"
+                  }
+                ],
+                "portrayed": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "name of the character",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300410267",
+                        "type": "Type",
+                        "_label": "character"
+                      }
+                    ],
+                    "content": "Luigi un Barman"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/act",
+                "type": "Type",
+                "_label": "actor"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/000000000091",
+                "type": "Person",
+                "_label": "François Lalande",
+                "classified_as": [
+                  {
+                    "id": "http://id.loc.gov/vocabulary/relators/act",
+                    "type": "Type",
+                    "_label": "actor"
+                  }
+                ],
+                "portrayed": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "name of the character",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300410267",
+                        "type": "Type",
+                        "_label": "character"
+                      }
+                    ],
+                    "content": "Gabriel un poète de l’élite et un maquereau"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/act",
+                "type": "Type",
+                "_label": "actor"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/000000000090",
+                "type": "Person",
+                "_label": "Jean-Paul Zehnacker",
+                "classified_as": [
+                  {
+                    "id": "http://id.loc.gov/vocabulary/relators/act",
+                    "type": "Type",
+                    "_label": "actor"
+                  }
+                ],
+                "portrayed": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "name of the character",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300410267",
+                        "type": "Type",
+                        "_label": "character"
+                      }
+                    ],
+                    "content": "Bénito un dictateur"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/act",
+                "type": "Type",
+                "_label": "actor"
+              }
+            ],
+            "carried_out_by": [
+              {
+                "id": "https://data.stage.org/auth/000000000089",
+                "type": "Person",
+                "_label": "Christian Bezamat",
+                "classified_as": [
+                  {
+                    "id": "http://id.loc.gov/vocabulary/relators/act",
+                    "type": "Type",
+                    "_label": "actor"
+                  }
+                ],
+                "portrayed": [
+                  {
+                    "type": "LinguisticObject",
+                    "_label": "name of the character",
+                    "classified_as": [
+                      {
+                        "id": "http://vocab.getty.edu/page/aat/300410267",
+                        "type": "Type",
+                        "_label": "character"
+                      }
+                    ],
+                    "content": "un guitariste"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "technique": [
+              {
+                "id": "https://id.loc.gov/vocabulary/relators/pro",
+                "type": "Type",
+                "_label": "Production"
+              }
+            ],
+            "carried_out_by":[
+              {
+                "id": "https://data.stage.org/auth/600000000055",
+                "type": "Group",
+                "_label": "Le Nouveau Gymnase Antoine Bourseiller Centre Dramatique National du Sud-Est",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300266039",
+                    "type": "Type",
+                    "_label": "Theater Companies"
+                  }
+                ],
+                "content":"Le Nouveau Gymnase Antoine Bourseiller Centre Dramatique National du Sud-Est"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "timespan": {
+      "type": "TimeSpan",
+      "begin_of_the_begin": "1974-08-05T21:30:00Z",
+      "end_of_the_end": "1974-08-10T00:00:00Z"
+    }
+}

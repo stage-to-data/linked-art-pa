@@ -1,0 +1,86 @@
+{
+    "@context": "https://linked.art/ns/v1/linked-art.json",
+    "id": "https://data.stage.org/programs/000000000003",
+    "type": "HumanMadeObject",
+    "_label": "Cesare 1950 show programme",
+    "classified_as": [
+      {
+        "id": "https://vocab.getty.edu/aat/300027216",
+        "type": "Type",
+        "_label": "show programme"
+      }
+    ],
+    "created_by": [
+      {
+        "type": "CreationAssignment",
+        "_label": "Festival d'Avignon's writing of the programme",
+        "carried_out_by": [
+          {
+            "id": "https://data.stage.org/festivalavignon",
+            "type": "Group",
+            "_label": "Festival d'Avignon"
+          }
+        ]
+      }
+    ],
+    "identified_by": [
+      {
+        "type": "Name",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300404670",
+            "type": "Type",
+            "_label": "Title"
+          }
+        ],
+        "content": "# XXVIIIe Festival d’Avignon Jean Vilar Du 5 au 10 août à 21 h 30 Le Nouveau Gymnase Antoine Bourseiller Centre Dramatique National du Sud-Est présente # Cesare 1950 de Jean-Pierre Bisson Création # Cloître des Carmes"
+      }
+    ],
+    "carries": [
+      {
+        "type": "LinguisticObject",
+        "_label": "description of the show in french as appears in doc",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300435416",
+            "type": "Type",
+            "_label": "Description"
+          }
+        ],
+        "content": "Je ne sais pas si Pavese aurait pu être un ami : je ne sais pas si Pavese aurait pu ne pas se suicider. Perdu dès sa prime jeunesse entre le flot de mots qui coulait de ses mains, et l’agitation politique de l’Italie — Parti fasciste — il en fut chassé — erreur de jeunesse, besoin d’agir, de prendre option. Parti communiste — il en fut chassé — manque d’engagement, incompatibilité entre son art, sa rêverie, sa révolte perpétuelles, son acuité de créateur, face aux exigences concrètes d’un vrai militant. Ses amours nombreuses prennent souvent le nom de passion. Son corps le trahit chaque fois ; de rage il crée, écrit, réussit, collectionne les prix littéraires — le métier de vivre — ; mais la nuit tombe et à chaque fois, cette même trahison. Une vision désespérée, cruelle et romantique qui le relie au grand mal de vivre de certains romantiques du XIXe siècle. Ballotté dans ce bouillon de culture qu’était l’Italie à la montée du fascisme, ses amours ratées mais sublimes, ses livres étaient ses drapeaux et ses draps. Comme Drieu la Rochelle, il mit fin à son échec : il se suicide en 1950. Une voix qui se rapproche de ce que je recherche ; une vie qui me confond comme celle de Musset — des larmes de notre temps, de mon corps — Cesare, mort en 1950. Chantal Darget, Christine Fersen, Nathalie Wood, Nicole Garcia, Florence... Giorgetti, etc... des femmes à Cesare qui hantent les bistrots et les boîtes de Turin ou se traînent de vieux blues de ces années-là... elles lui parlent, elles lui rient, elles lui chantent... et lui écrit ce qu’aurait dû être sa nuit avec... et le blues l’enveloppe dans la moite obsession de son échec. J.-P. B.",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388306",
+            "type": "Language",
+            "_label": "French"
+          }
+        ],
+        "subject_of": [
+          {
+            "id": "https://data.stage.org/prod/000000000003",
+            "type": "Type",
+            "_label": "Activity"
+          }
+        ]
+      },
+      {
+        "type": "LinguisticObject",
+        "_label": "other information",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300263751",
+            "type": "Type",
+            "_label": "Text"
+          }
+        ],
+        "content": "# Créations du Centre Dramatique National du Sud-Est au Festival d’Avignon, depuis 1967, date à laquelle il a été invité pour la première fois. /// 1967 Silence, l’arbre remue encore de François Billetdoux La Baye de Philippe Adrien pour l’inauguration du Cloître des Carmes /// 1972 Les Veufs de Bernard Mazéas Crepuscule One spectacle collectif off Festival - La Cardère /// 1973 Onirocri de Barre Phillips et Antoine Bourseiller Cour d’Honneur du Palais des Papes /// 1974 Cesare 1950 de Jean-Pierre Bisson Cloître des Carmes",
+        "language": [
+          {
+            "id": "http://vocab.getty.edu/aat/300388306",
+            "type": "Language",
+            "_label": "French"
+          }
+        ]
+      }
+    ]
+  }
