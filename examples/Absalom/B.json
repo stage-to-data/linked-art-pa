@@ -57,7 +57,7 @@
       ]
     }
   ],
-  "part_of": [
+  "part": [
     {
       "id": "https://data.stage.org/festivals/000000000001",
       "type": "Activity",

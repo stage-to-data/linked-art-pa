@@ -30,9 +30,9 @@
       ]
     }
   ],
-  "produced_by": [
+  "created_by": [
     {
-      "type": "Production",
+      "type": "Creation",
       "part": [
         {
           "type": "Production",

@@ -27,7 +27,9 @@ This distinction ensures precise documentation, including unforeseen changes not
   - An `Activity` element encompassing multiple performances in a specific context (venue, festival, event, etc.).  
 
 - **C: Show** (*Getty AAT "Performances (performing arts show)"*)  
-  - An `Activity` element referring to the individual show occurring on a precise date.  
+  - An `Activity` element referring to the individual show occurring on a precise date.
+
+Common information shared between B (production) and C (show), but which cannot be inherited (ticket prices, duration of each performance) is assigned to a **Set**.
 
 ### This structure allows:
 - **Listing and distinguishing variations** when the same production is presented in multiple locations (e.g., during a tour).  
@@ -56,7 +58,7 @@ This allows differentiation between **adaptations and re-creations** over time.
 ### Key properties:
 - `classified_as`
 - `identified_by`
-- `produced_by`
+- `created_by`
 
 Example:  
 > The work *Absalon, Absalon!* conceived by the director **Séverine Chavrier** in **2024** in French.
@@ -94,9 +96,9 @@ Example:
       ]
     }
   ],
-  "produced_by": [
+  "created_by": [
     {
-      "type": "Production",
+      "type": "Creation",
       "technique": [
         {
           "id":"http://vocab.getty.edu/page/aat/300404387",
@@ -141,7 +143,7 @@ Example:
 ### Re-Staging and Re-Enactment
 Directors often **re-stage** previous works after a significant period. Each re-staging is considered a **separate work**, ensuring a **clear distinction** between:
 - **Production teams** (actors, technical staff, funding, etc.).
-- **Time-based evolution** (*timespan* property within `created_by`).
+- **Time-based evolution** (*timespan* property within `produced_by`).
 
 ---
 
@@ -149,7 +151,7 @@ Directors often **re-stage** previous works after a significant period. Each re-
 Many performing arts works are **interpretations or adaptations** of texts (*plays, novels, etc.*).  
 A text is a `LinguisticObject`, following the same structure as **Work (A)**, with at least:
 - `identified_by`
-- `produced_by`
+- `created_by`
 
 Example:  
 > The text entitled *Absalom, Absalom!* written by **William Faulkner**.
@@ -180,8 +182,8 @@ Example:
       ]
     }
   ],
-  "produced_by": {
-    "type": "Production",
+  "created_by": {
+    "type": "Creation",
     "technique" : [
       {
         "id":"http://vocab.getty.edu/page/aat/300054698",
@@ -225,19 +227,19 @@ Example:
 
 ```json
 "influenced_by": [
+    {
+      "id": "https://data.stage.org/text/000000000101 (text.json)",
+      "type": "LinguisticObject",
+      "_label": "Absalon de Faulkner",
+      "classified_as": [
         {
-          "id": "https://data.stage.org/text/000000000101 (text.json)",
-          "type": "LinguisticObject",
-          "_label": "Absalon de Faulkner",
-          "classified_as": [
-            {
-              "id": "http://vocab.getty.edu/page/aat/300410356",
-              "type": "Type",
-              "_label": "Adaptation"
-            }
-          ]
+          "id": "http://vocab.getty.edu/page/aat/300410356",
+          "type": "Type",
+          "_label": "Adaptation"
         }
       ]
+    }
+  ]
 ```
 
 
@@ -276,7 +278,7 @@ Example:
       "_label": "Performances (creative events)"
     }
   ],
-  "part_of": [
+  "part": [
     {
       "id": "https://data.stage.org/festivals/000000000001",
       "type": "Activity",
@@ -344,7 +346,7 @@ The **Production (B)** refers to the **Work (A)** via `influenced_by`.
 
 ### Context Elements:
 - **Venues**: Specified via `took_place_at`, which may include stage details.
-- **Festivals**: Linked via `part_of`, referencing the **Festival object**.
+- **Festivals**: Linked via `part`, referencing the **Festival object**.
 
 ---
 
@@ -357,25 +359,25 @@ Example:
 
 ```json
 "classified_as": [
-        {
-          "id": "https://vocab.getty.edu/aat/300417582",
-          "type": "Type",
-          "_label": "Theater (genre)",
-          "referred_to_by": [
-            {
-              "type": "LinguisticObject",
-              "_label": "genre as appears in program",
-              "classified_as": [
-                {
-                  "id": "http://vocab.getty.edu/page/aat/300456607",
-                  "type": "Type",
-                  "_label": "Literal transcription"
-                }
-              ],
-              "content": "Théâtre"
-            }
-          ]
-        }
+  {
+    "id": "https://vocab.getty.edu/aat/300417582",
+    "type": "Type",
+    "_label": "Theater (genre)",
+    "referred_to_by": [
+      {
+        "type": "LinguisticObject",
+        "_label": "genre as appears in program",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/page/aat/300456607",
+            "type": "Type",
+            "_label": "Literal transcription"
+          }
+        ],
+        "content": "Théâtre"
+      }
+    ]
+  }
 ]
 ```
 
@@ -580,32 +582,32 @@ Example:
 
 ```json
 "participant": [
-{
-      "id": "https://data.stage.org/auth/000000000999",
-      "type": "Group",
-      "_label": "Fondation Ernst Göhner (Zoug)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/page/aat/300188572",
-          "type": "Type",
-          "_label": "Sponsor",
-          "referred_to_by": [
-            {
-              "type": "LinguisticObject",
-              "_label": "as appears in program",
-              "classified_as": [
-                {
-                  "id": "http://vocab.getty.edu/page/aat/300456607",
-                  "type": "Type",
-                  "_label": "Literal transcription"
-                }
-              ],
-              "content": "Avec le soutien de"
-            }
-          ]
-        }
-      ]
-    }
+  {
+    "id": "https://data.stage.org/auth/000000000999",
+    "type": "Group",
+    "_label": "Fondation Ernst Göhner (Zoug)",
+    "classified_as": [
+      {
+        "id": "http://vocab.getty.edu/page/aat/300188572",
+        "type": "Type",
+        "_label": "Sponsor",
+        "referred_to_by": [
+          {
+            "type": "LinguisticObject",
+            "_label": "as appears in program",
+            "classified_as": [
+              {
+                "id": "http://vocab.getty.edu/page/aat/300456607",
+                "type": "Type",
+                "_label": "Literal transcription"
+              }
+            ],
+            "content": "Avec le soutien de"
+          }
+        ]
+      }
+    ]
+  }
 ]
 
 ```
@@ -616,11 +618,11 @@ Example:
 
 ## Show (C)
 
-A **specific performance date** is modeled as a **separate Activity**, linked to **Production (B)** via `part_of`.
+A **specific performance date** is modeled as a **separate Activity**, linked to **Production (B)** via `part`.
 
 ### Key properties:
 - **Precise timespan** (date and duration).
-- **Part of** (Production B).
+- **Part** (Production B).
 - **Classification** (`classified_as`).
 
 Example:  
@@ -632,7 +634,7 @@ Example:
   "id": "https://data.stage.org/shows/000000000001",
   "type": "Activity",
   "_label": "Specific Date for Absalon, Absalon ",
-  "part_of": [
+  "part": [
     {
       "id": "https://data.stage.org/prod/000000000001",
       "type": "Activity",
