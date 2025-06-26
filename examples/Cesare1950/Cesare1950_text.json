@@ -23,8 +23,8 @@
         ]
       }
     ],
-    "produced_by": {
-      "type": "Production",
+    "created_by": {
+      "type": "Creation",
       "technique": [
         {
           "id":"http://vocab.getty.edu/page/aat/300054698",
@@ -47,4 +47,4 @@
         }
       ]
     }
-  }
+}
