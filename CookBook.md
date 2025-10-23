@@ -260,7 +260,7 @@ A **production** is modeled as an `Activity`, similar to an **exhibition** in th
 - **Classification** (`classified_as`), e.g., `"Performances (creative events)"`
 - **Temporal scope** (`timespan`)
 - **Location** (`took_place_at`)
-- **Participants** (`carried_out_by`)
+- **Participants** (`produced_by`)
 
 Example:  
 > The production of *Absalon, Absalon!* by **Séverine Chavrier**, presented in **July 2024** at **La Fabrica (Avignon Festival)**.
@@ -489,128 +489,108 @@ Example:
 ---
 
 ### Roles
-Each **person or organization** involved is listed in `carried_out_by`, classified by **roles** (director, actor, etc.).
+The involvement of each **person or organisation** is linked to B (Production) through the `produced_by` property. The specifics of each participation are detailed in a `part` relation, which both specifies the participant’s **role** (such as director, actor, funder, sponsor...) via the `technique` relation, and identifies the participant (name, functions) via the `carried_out_by` relation. Should the participant be an actor, the character they portray may be further specified using the `portrayed` property.
+
+Note: All participants, including funders and sponsors, are described using the `produced_by` property.
 
 Example:  
 > **Séverine Chavrier** is both **director** and **adapter** of the performance.  
 > **Pierre Artières-Glissant** plays **Henry** in *Absalon, Absalon!*.
 
 ```json
-"carried_out_by": [
-    {
-      "id": "https://data.stage.org/auth/000000000001",
-      "type": "Person",
-      "_label": "Séverine Chavrier",
-      "referred_to_by": [
-        {
-          "type": "LinguisticObject",
-          "_label": "role as appears in doc",
-          "classified_as": [
-            {
-              "id": "http://vocab.getty.edu/page/aat/300435423",
-              "type": "Type",
-              "_label": "Literal transcription"
-            }
-          ],
-          "content": "adaptation et mise en scène"
-        }
-      ],
-      "classified_as": [
-        {
-          "id": "http://id.loc.gov/vocabulary/relators/drt",
-          "type": "Type",
-          "_label": "director"
-        },
-        {
-          "id": "http://id.loc.gov/vocabulary/relators/adp",
-          "type": "Type",
-          "_label": "adapter"
-        }
-      ]
-    },
-    {
-      "id": "https://data.stage.org/auth/000000000009",
-      "type": "Person",
-      "_label": "Pierre Artières-Glissant",
-      "classified_as": [
-        {
-          "id": "http://id.loc.gov/vocabulary/relators/act",
-          "type": "Type",
-          "_label": "actor"
-        }
-      ],
-      "referred_to_by": [
-        {
-          "type": "LinguisticObject",
-          "_label": "role as appears in doc",
-          "classified_as": [
-            {
-              "id": "http://vocab.getty.edu/page/aat/300435423",
-              "type": "Type",
-              "_label": "Literal transcription"
-            }
-          ],
-          "content": "avec"
-        }
-      ],
-      "has_character": [
-        {
-          "type": "LinguisticObject",
-          "_label": "name of the character",
-          "classified_as": [
-            {
-              "id": "http://vocab.getty.edu/page/aat/300410267",
-              "type": "Type",
-              "_label": "character"
-            }
-          ],
-          "content": "Henry"
-        }
-      ]
-    }
-]
-
-```
-
----
-
-### Funders & Supporters
-Sponsorships and acknowledgments are recorded in `participant`, classified by **funding type**.
-
-Example:  
-> The **Fondation Ernst Göhner** sponsors the production.
-
-```json
-"participant": [
+"produced_by": [
   {
-    "id": "https://data.stage.org/auth/000000000999",
-    "type": "Group",
-    "_label": "Fondation Ernst Göhner (Zoug)",
-    "classified_as": [
+    "type": "Production",
+    "part": [
       {
-        "id": "http://vocab.getty.edu/page/aat/300188572",
-        "type": "Type",
-        "_label": "Sponsor",
-        "referred_to_by": [
+        "technique": [
           {
-            "type": "LinguisticObject",
-            "_label": "as appears in program",
+            "id": "http://id.loc.gov/vocabulary/relators/drt",
+            "type": "Type",
+            "_label": "director"
+          }
+        ],
+        "carried_out_by": [
+          {
+            "id": "https://data.stage.org/auth/000000000001",
+            "type": "Person",
+            "_label": "Séverine Chavrier",
             "classified_as": [
               {
-                "id": "http://vocab.getty.edu/page/aat/300456607",
+                "id": "http://id.loc.gov/vocabulary/relators/drt",
                 "type": "Type",
-                "_label": "Literal transcription"
+                "_label": "director"
               }
             ],
-            "content": "Avec le soutien de"
+          }
+        ]
+      },
+      {
+        "technique": [
+          {
+            "id": "http://id.loc.gov/vocabulary/relators/adp",
+            "type": "Type",
+            "_label": "adapter"
+          }
+        ],
+        "carried_out_by": [
+          {
+            "id": "https://data.stage.org/auth/000000000001",
+            "type": "Person",
+            "_label": "Séverine Chavrier",
+            "classified_as": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/adp",
+                "type": "Type",
+                "_label": "adapter"
+              }
+            ],
+          }
+        ]
+      },
+      {
+        "technique": [
+          {
+            "id": "http://id.loc.gov/vocabulary/relators/act",
+            "type": "Type",
+            "_label": "actor"
+          }
+        ],
+        "carried_out_by": [
+          {
+            "id": "https://data.stage.org/auth/000000000009",
+            "type": "Person",
+            "_label": "Pierre Artières-Glissant",
+            "classified_as": [
+              {
+                "id": "http://id.loc.gov/vocabulary/relators/act",
+                "type": "Type",
+                "_label": "actor"
+              }
+            ],
+            "portrayed": [
+              {
+                "type": "LinguisticObject",
+                "_label": "name of the character",
+                "classified_as": [
+                  {
+                    "id": "http://vocab.getty.edu/page/aat/300410267",
+                    "type": "Type",
+                    "_label": "character"
+                  }
+                ],
+                "content": "Henry"
+              }
+            ]
           }
         ]
       }
     ]
   }
 ]
-
 ```
+
+---
 
 ![Production class schema](Figures-Cookbook/B.drawio.svg)
 
@@ -658,6 +638,160 @@ Example:
 ```
 
 ![Show class schema](Figures-Cookbook/C.drawio.svg)
+
+---
+## Set of Shows (C) linked to a Production (B)
+
+Some information, typically (though not invariably) common to all Shows (C) within a given Production (B), cannot be directly inherited from the Production level, nor indeed assigned at that level. This includes ticket prices and show duration. Such information has been assigned to a **Set** element. Shows are associated with the Set via a `member_of` relation. The Set is also linked to the Production common to the collection of Shows through a `used_for` property (from the Set to the Production) and a `used_specific_object` property (from the Production to the Set).
+
+```json
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/sets/Absalon",
+  "type": "Set",
+  "_label": "Practical information Absalon",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/page/aat/300419392",
+      "type": "Type",
+      "_label": "Collection"
+    }
+  ],
+  "used_for": [
+    {
+     "id": "https://data.stage.org/prod/000000000001",
+     "type": "Activity",
+     "_label": "Absalon, Absalon in Avignon (Season) (B.json)"
+    }
+  ]
+}
+```
+
+### Ticket Pricing
+The **ticket price** is included via the `dimension` property:  
+- `classified_as: Price`
+- `unit: Currency`
+
+Example:  
+> Ticket prices for one performance in euros.
+
+```json
+"dimension": [
+  {
+		"type": "MonetaryAmount",
+		"classified_as": [
+	  	{
+				"id": "http://vocab.getty.edu/aat/300417247",
+				"type": "Type",
+				"_label": "List Prices"
+		  }
+		],
+		"value": "30",
+		"currency": {
+		  "id": "https://vocab.getty.edu/aat/300425170",
+		  "type": "Currency",
+		  "_label": "Euros"
+		},
+		"referred_to_by": [
+		  {
+				"type": "LinguisticObject",
+				"_label": "price category",
+				"classified_as": [
+			  	{
+						"id": "http://vocab.getty.edu/page/aat/300435423",
+						"type": "Type",
+						"_label": "Literal transcription"
+				  }
+				],
+				"content": "Tarif Plein - C"
+		  }
+		]
+  },
+  {
+		"type": "MonetaryAmount",
+		"classified_as": [
+	  	{
+				"id": "http://vocab.getty.edu/aat/300417247",
+				"type": "Type",
+				"_label": "List Prices"
+		  }
+		],
+		"value": "25",
+		"currency": {
+		  "id": "https://vocab.getty.edu/aat/300425170",
+		  "type": "Currency",
+		  "_label": "Euros"
+		},
+		"referred_to_by": [
+		  {
+				"type": "LinguisticObject",
+				"_label": "price category",
+				"classified_as": [
+			  	{
+						"id": "http://vocab.getty.edu/page/aat/300435423",
+						"type": "Type",
+						"_label": "Literal transcription"
+				  }
+				],
+				"content": "Carte Festival"
+		  }
+		]
+  },
+  {
+		"type": "MonetaryAmount",
+		"classified_as": [
+	  	{
+				"id": "http://vocab.getty.edu/aat/300417247",
+				"type": "Type",
+				"_label": "List Prices"
+		  }
+		],
+		"value": "10",
+		"currency": {
+		  "id": "https://vocab.getty.edu/aat/300425170",
+		  "type": "Currency",
+		  "_label": "Euros"
+		},
+		"referred_to_by": [
+		  {
+				"type": "LinguisticObject",
+				"_label": "price category",
+				"classified_as": [
+			  	{
+						"id": "http://vocab.getty.edu/page/aat/300435423",
+						"type": "Type",
+						"_label": "Literal transcription"
+				  }
+				],
+				"content": "Carte '3' clés"
+		  }
+		]
+  }
+],
+```
+---
+
+### Duration of the Show
+
+The common Show duration is included via the `timespan` property:  
+- `duration`
+- `unit: minutes`
+
+```json
+"timespan": {
+  "type": "TimeSpan",
+  "_label": "5h",
+  "duration": {
+    "type": "Dimension",
+    "value": 300,
+    "unit": {
+      "id": "http://vocab.getty.edu/aat/300379240",
+      "type": "MeasurementUnit",
+      "_label": "minutes"
+    }
+  }
+}
+```
 
 ---
 
