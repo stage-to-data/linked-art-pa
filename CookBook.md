@@ -383,112 +383,8 @@ Example:
 
 ---
 
-### Ticket Pricing
-The **ticket price** is included via the `dimension` property:  
-- `classified_as: Price`
-- `unit: Currency`
-
-Example:  
-> Ticket prices for one performance in euros.
-
-```json
-"dimension": [
-  {
-    "type": "MonetaryAmount",
-    "classified_as": [
-      {
-        "id": "http://vocab.getty.edu/aat/300417247",
-        "type": "Type",
-        "_label": "List Prices"
-      }
-    ],
-    "value": "23",
-    "currency": {
-      "id": "https://vocab.getty.edu/aat/300425170",
-      "type": "Currency",
-      "_label": "Euros"
-    },
-    "referred_to_by": [
-      {
-        "type": "LinguisticObject",
-        "_label": "price category",
-        "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/page/aat/300435423",
-            "type": "Type",
-            "_label": "Literal transcription"
-          }
-        ],
-        "content": "plein"
-      }
-    ]
-  },
-  {
-    "type": "MonetaryAmount",
-    "classified_as": [
-      {
-        "id": "http://vocab.getty.edu/aat/300417247",
-        "type": "Type",
-        "_label": "List Prices"
-      }
-    ],
-    "value": "16",
-    "currency": {
-      "id": "https://vocab.getty.edu/aat/300425170",
-      "type": "Currency",
-      "_label": "Euros"
-    },
-    "referred_to_by": [
-      {
-        "type": "LinguisticObject",
-        "_label": "price category",
-        "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/page/aat/300435423",
-            "type": "Type",
-            "_label": "Literal transcription"
-          }
-        ],
-        "content": "abonné"
-      }
-    ]
-  },
-  {
-    "type": "MonetaryAmount",
-    "classified_as": [
-      {
-        "id": "http://vocab.getty.edu/aat/300417247",
-        "type": "Type",
-        "_label": "List Prices"
-      }
-    ],
-    "value": "18",
-    "currency": {
-      "id": "https://vocab.getty.edu/aat/300425170",
-      "type": "Currency",
-      "_label": "Euros"
-    },
-    "referred_to_by": [
-      {
-        "type": "LinguisticObject",
-        "_label": "price category",
-        "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/page/aat/300435423",
-            "type": "Type",
-            "_label": "Literal transcription"
-          }
-        ],
-        "content": "reduit"
-      }
-    ]
-  }
-],
-```
-
----
-
 ### Roles
+
 The involvement of each **person or organisation** is linked to B (Production) through the `produced_by` property. The specifics of each participation are detailed in a `part` relation, which both specifies the participant’s **role** (such as director, actor, funder, sponsor...) via the `technique` relation, and identifies the participant (name, functions) via the `carried_out_by` relation. Should the participant be an actor, the character they portray may be further specified using the `portrayed` property.
 
 Note: All participants, including funders and sponsors, are described using the `produced_by` property.
@@ -666,14 +562,16 @@ Some information, typically (though not invariably) common to all Shows (C) with
   ]
 }
 ```
+---
 
 ### Ticket Pricing
+
 The **ticket price** is included via the `dimension` property:  
 - `classified_as: Price`
 - `unit: Currency`
 
 Example:  
-> Ticket prices for one performance in euros.
+> Ticket prices for each performance of the Set in euros.
 
 ```json
 "dimension": [
@@ -792,6 +690,8 @@ The common Show duration is included via the `timespan` property:
   }
 }
 ```
+
+![Set class schema](Figures-Cookbook/Set.drawio.svg)
 
 ---
 
