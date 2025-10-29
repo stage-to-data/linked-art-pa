@@ -13,7 +13,8 @@
           "id": "https://vocab.getty.edu/aat/300417582",
           "type": "Type",
           "_label": "Theater (genre)"
-        },
+        }
+      ],
         "referred_to_by": [
           {
             "type": "LinguisticObject",
@@ -195,7 +196,7 @@
                     "content": "Conception, mise en lecture et écriture"
                   }
                 ]
-              },
+              }
             ]
           },
           {
