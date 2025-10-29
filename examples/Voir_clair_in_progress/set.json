@@ -1,0 +1,126 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/sets/RichardIII",
+  "type": "Set",
+  "_label": "William Mesguish's Richard III in Avignon (set of shows)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/page/aat/300419392",
+      "type": "Type",
+      "_label": "Collection"
+    }
+  ],
+  "used_for": [
+    {
+      "id": "https://data.stage.org/prod/000000000001",
+      "type": "Activity",
+      "_label": "Richard III in Avignon OFF (Season)"
+    }
+  ],
+  "dimension": [
+    {
+      "type": "MonetaryAmount",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417247",
+          "type": "Type",
+          "_label": "List Prices"
+        }
+      ],
+      "value": "23",
+      "currency": {
+        "id": "https://vocab.getty.edu/aat/300425170",
+        "type": "Currency",
+        "_label": "Euros"
+      },
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "_label": "price category",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300435423",
+              "type": "Type",
+              "_label": "Literal transcription"
+            }
+          ],
+          "content": "plein"
+        }
+      ]
+    },
+    {
+      "type": "MonetaryAmount",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417247",
+          "type": "Type",
+          "_label": "List Prices"
+        }
+      ],
+      "value": "16",
+      "currency": {
+        "id": "https://vocab.getty.edu/aat/300425170",
+        "type": "Currency",
+        "_label": "Euros"
+      },
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "_label": "price category",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300435423",
+              "type": "Type",
+              "_label": "Literal transcription"
+            }
+          ],
+          "content": "abonné"
+        }
+      ]
+    },
+    {
+      "type": "MonetaryAmount",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417247",
+          "type": "Type",
+          "_label": "List Prices"
+        }
+      ],
+      "value": "18",
+      "currency": {
+        "id": "https://vocab.getty.edu/aat/300425170",
+        "type": "Currency",
+        "_label": "Euros"
+      },
+      "referred_to_by": [
+        {
+          "type": "LinguisticObject",
+          "_label": "price category",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300435423",
+              "type": "Type",
+              "_label": "Literal transcription"
+            }
+          ],
+          "content": "réduit"
+        }
+      ]
+    }
+  ],
+  "timespan": {
+    "type": "TimeSpan",
+    "_label": "110min",
+    "duration": {
+      "type": "Dimension",
+      "value": 110,
+      "unit": {
+        "id": "http://vocab.getty.edu/aat/300379240",
+        "type": "MeasurementUnit",
+        "_label": "minutes"
+      }
+    }
+  }
+}
+

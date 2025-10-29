@@ -1,0 +1,132 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/works/000000000001",
+  "type": "PropositionalObject",
+  "_label": "Voir Claire as conceived by Adèle Haenel",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300387357",
+      "type": "Type",
+      "_label": "works (general, creative)"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Title"
+        }
+      ],
+      "content": "Voir clair avec Monique Wittig",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "label": "French"
+        }
+      ]
+    }
+  ],
+  "created_by": [
+    {
+      "type": "Creation",
+      "part": [
+        {
+          "type": "Production",
+          "technique": [
+            {
+              "id": "http://vocab.getty.edu/page/aat/300404387",
+              "type": "Type",
+              "_label": "Creating"
+            }
+          ],
+          "carried_out_by": [
+            {
+              "id": "https://data.stage.org/auth/000000000007",
+              "type": "Group",
+              "_label": "DameChevaliers"
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000006",
+              "type": "Person",
+              "_label": "Caro Geryl"
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000005",
+              "type": "Person",
+              "_label": "Adèle Haenel"
+            }
+          ],
+          "influenced_by": [
+            {
+              "id": "https://data.stage.org/auth/000000000008",
+              "type": "Person",
+              "_label": "Monique Wittig"
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000008",
+              "type": "Person",
+              "_label": "Sara Ahmed"
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000008",
+              "type": "Person",
+              "_label": "Audre Lorde"
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000008",
+              "type": "Person",
+              "_label": "Adrienne Rich"
+            },
+            {
+              "id": "https://data.stage.org/auth/000000000008",
+              "type": "Person",
+              "_label": "Elsa Dorlin"
+            }
+          ],
+          "timespan": {
+            "type": "TimeSpan",
+            "_label": "2025",
+            "begin_of_the_begin": "2025-01-01T00:00:00Z"
+          }
+        }
+      ]
+    },
+    "language": [
+      {
+        "id": "http://vocab.getty.edu/aat/300388306",
+        "type": "Language",
+        "label": "French"
+      }
+    ],
+    "attributed_by": [
+      {
+        "type": "AttributeAssignment",
+        "identified_by": [
+          {
+            "type": "Type",
+            "id": "https://vocab.getty.edu/aat/300027216",
+            "_label": "show programme",
+            "classified_as": [
+              {
+                "id": "https://vocab.getty.edu/aat/300311936",
+                "type": "Type",
+                "_label": "primary source"
+              }
+            ]
+          }
+        ],
+        "assigned_property": "takes_information_from",
+        "assigned": [
+          {
+            "type": "HumanMadeObject",
+            "id": "https://data.stage.org/programs/000000000005",
+            "_label": "Voir Claire show programme"
+          }
+        ]
+      }
+    ]
+  }

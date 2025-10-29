@@ -1,0 +1,68 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://data.stage.org/shows/000000000006",
+  "type": "Activity",
+  "_label": "Specific Date for Voir Clair",
+  "part_of": [
+    {
+      "id": "https://data.stage.org/prod/000000000005",
+      "type": "Activity",
+      "_label": "Voir Clair at Bouffes du nord (B.json)"
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://data.stage.org/sets/Voir_Clair",
+      "type": "Set",
+      "_label": "To be discussed?"
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/page/aat/300XXXXXX",
+      "type": "Type",
+      "_label": "performance (performing arts show) to be defined in Getty"
+    }
+  ],
+  "timespan": {
+    "type": "TimeSpan",
+    "_label": "Date",
+    "begin_of_the_begin": "2024-10-08T00:00:00Z",
+    "duration": {
+      "type": "Dimension",
+      "value": 55,
+      "unit": {
+        "id": "http://vocab.getty.edu/aat/300379240",
+        "type": "MeasurementUnit",
+        "_label": "minutes"
+      }
+    }
+  },
+  "attributed_by": [
+    {
+      "type": "AttributeAssignment",
+      "identified_by": [
+        {
+          "type": "Type",
+          "id": "https://vocab.getty.edu/aat/300027216",
+          "_label": "show programme",
+          "classified_as": [
+            {
+              "id": "https://vocab.getty.edu/aat/300311936",
+              "type": "Type",
+              "_label": "primary source"
+            }
+          ]
+        }
+      ],
+      "assigned_property": "takes_information_from",
+      "assigned": [
+        {
+          "type": "HumanMadeObject",
+          "id": "https://data.stage.org/programs/000000000005",
+          "_label": "Voir Clair show programme"
+        }
+      ]
+    }
+  ]
+}
