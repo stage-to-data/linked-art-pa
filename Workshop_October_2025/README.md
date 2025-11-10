@@ -1,10 +1,7 @@
 # International Workshop — Linked Art Extension for the Performing Arts  
-## Workshop Outcome and Roadmap  
 
 **Dates:** October 30 to November 1st  
 **Place:** Université Rennes 2  
-
----
 
 ## Executive Summary  
 
@@ -24,8 +21,6 @@ Discussions focused on the integration of performing-arts concepts within the **
 As an outcome, the group agreed to propose a new class, **Exx Performance** – a subclass of *E7 Activity* – to describe intentional, human-initiated actions that embody and express a work within a defined temporal and spatial span. This class provides a coherent framework addressing many of the issues raised during the workshop, notably the representation of complex performance series, online or distributed venues, and the link between conceptual works and their realisations.  
 
 The workshop confirmed the feasibility of a **Linked Art – Performing Arts (Linked Art-PA)** extension and defined the next steps. This collaborative effort establishes a foundation for a shared ontology for performing-arts heritage data.  
-
----
 
 ## Participants  
 
@@ -52,8 +47,6 @@ The workshop confirmed the feasibility of a **Linked Art – Performing Arts (Li
 - Anna Lawaetz (Royal Danish Library)  
 - Baptiste de Coulon (Sapa)  
 
----
-
 ## Context and Objectives  
 
 Following a first study day in 2024 entitled *Representing the Performing Arts: Ontologies and Data Models* and the ongoing work of the ERC project *From Stage to Data*, this new collaborative workshop focused on modelling the performing arts within the **Linked Art ontology** ([https://linked.art/](https://linked.art/)).  
@@ -61,10 +54,6 @@ Following a first study day in 2024 entitled *Representing the Performing Arts: 
 Originally designed for museums, **Linked Art** aims to enhance the interoperability and accessibility of heritage data by relying on a limited subset of *CIDOC CRM* classes and properties, as well as controlled vocabularies (Getty AAT, etc.).  
 
 The *From Stage to Data* project now proposes an **extension of Linked Art for the performing arts**, based on modelling performance events from playbills and programmes (*case study: Festival d’Avignon, 1947–present*).  
-Current results are available on GitHub:  
-[https://github.com/stage-to-data/linked-art-pa](https://github.com/stage-to-data/linked-art-pa)  
-
----
 
 ## Workshop Objectives  
 
