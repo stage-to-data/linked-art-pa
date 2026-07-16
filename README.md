@@ -50,7 +50,7 @@ George Bruseker (Takin Solutions) [https://orcid.org/0000-0001-7519-1970](https:
 Brandon Farnsworth (Université Rennes 2\) [https://orcid.org/0000-0001-9095-2360](https://orcid.org/0000-0001-9095-2360)   
 Jeanne Fras (Université Rennes 2\) [https://orcid.org/0009-0003-2633-8253](https://orcid.org/0009-0003-2633-8253)   
 Bernard Jacquemin (Enssib, École nationale supérieure des sciences de l'information et des bibliothèques)  
-Diane Jakacki (Bucknell University)  
+Diane Jakacki (Bucknell University)  [https://orcid.org/0000-0002-7836-1223](https://orcid.org/0000-0002-7836-1223)   
 Antonios Lagarias (Université Rennes 2\) [https://orcid.org/0009-0007-1895-8603](https://orcid.org/0009-0007-1895-8603)   
 Anne Le Gall (TMNlab)  
 Richard Palmer (Victoria and Albert Museum)  
