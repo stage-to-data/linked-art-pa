@@ -50,9 +50,11 @@ George Bruseker (Takin Solutions) [https://orcid.org/0000-0001-7519-1970](https:
 Brandon Farnsworth (Université Rennes 2\) [https://orcid.org/0000-0001-9095-2360](https://orcid.org/0000-0001-9095-2360)   
 Jeanne Fras (Université Rennes 2\) [https://orcid.org/0009-0003-2633-8253](https://orcid.org/0009-0003-2633-8253)   
 Bernard Jacquemin (Enssib, École nationale supérieure des sciences de l'information et des bibliothèques)  
-Diane Jakacki (Bucknell University)  
-Antonios Lagarias (Université Rennes 2\) [https://orcid.org/0009-0007-1895-8603](https://orcid.org/0009-0007-1895-8603)    
+Diane Jakacki (Bucknell University)  [https://orcid.org/0000-0002-7836-1223](https://orcid.org/0000-0002-7836-1223)   
+Antonios Lagarias (Université Rennes 2\) [https://orcid.org/0009-0007-1895-8603](https://orcid.org/0009-0007-1895-8603)   
+Anne Le Gall (TMNlab)  
 Richard Palmer (Victoria and Albert Museum)  
+Elena Pierazzo (University of Tours)  
 Doug Reside (NYPL)  
 Robert Sanderson (Yale University)
 
@@ -133,8 +135,6 @@ No new CRM classes were created. LA-PA uses and extends:
 
 LA-PA organises performing arts documentation around **13 models**, structured in three layers: **events**, **agents**, and **objects**.
 
-Figure : overview of the LA-PA ontology
-
 ### **Event Layer**
 
 | Model | CRM Base | Linked Art Class | Definition |
@@ -196,7 +196,8 @@ This production was chosen because:
 
 | Domain | Source |
 | ----- | ----- |
-| Performing Arts Roles / Professions | [Art & Architecture Thesaurus](https://www.getty.edu/research/tools/vocabularies/aat/) [Library of Congress Relators](https://id.loc.gov/vocabulary/relators.htm) / [BnF Roles](https://data.bnf.fr/vocabulary/roles) |
+| Performing Arts | [Art & Architecture Thesaurus](https://www.getty.edu/research/tools/vocabularies/aat/) |
+| Roles / Professions | [Library of Congress Relators](https://id.loc.gov/vocabulary/relators.htm) / [BnF Roles](https://data.bnf.fr/vocabulary/roles) |
 | Languages | ISO 639 via E56 Language |
 | Identifiers | VIAF, ISNI, ARK (BnF), Wikidata |
 
@@ -220,7 +221,7 @@ This production was chosen because:
 
 If you use LA-PA in your research, please cite it as follows:
 
-Bardiot, Clarisse, George Bruseker, Øyvind Eide, Brandon Farnsworth, Jeanne Fras, Bernard Jacquemin, Diane Jakacki, Antonios Lagarias, Anne Le Gall, Richard Palmer, Elena Pierazzo, Doug Reside, and Robert Sanderson. 2026\. *Linked Art Performing Arts Extension (LA-PA), v0.9*. STAGE Project / Université Rennes 2\. [https://github.com/stage-to-data/linked-art-pa](https://github.com/stage-to-data/linked-art-pa)
+Bardiot, Clarisse, George Bruseker, Øyvind Eide, Brandon Farnsworth, Jeanne Fras, Bernard Jacquemin, Diane Jakacki, Antonios Lagarias, Richard Palmer, Doug Reside, and Robert Sanderson. 2026\. *Linked Art Performing Arts Extension (LA-PA), v0.9*. STAGE Project / Université Rennes 2\. [https://github.com/stage-to-data/linked-art-pa](https://github.com/stage-to-data/linked-art-pa)
 
 ## **Funding and Acknowledgements**
 
