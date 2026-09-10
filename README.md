@@ -51,10 +51,8 @@ Brandon Farnsworth (Université Rennes 2\) [https://orcid.org/0000-0001-9095-236
 Jeanne Fras (Université Rennes 2\) [https://orcid.org/0009-0003-2633-8253](https://orcid.org/0009-0003-2633-8253)   
 Bernard Jacquemin (Enssib, École nationale supérieure des sciences de l'information et des bibliothèques)  
 Diane Jakacki (Bucknell University)  
-Antonios Lagarias (Université Rennes 2\) [https://orcid.org/0009-0007-1895-8603](https://orcid.org/0009-0007-1895-8603)   
-Anne Le Gall (TMNlab)  
+Antonios Lagarias (Université Rennes 2\) [https://orcid.org/0009-0007-1895-8603](https://orcid.org/0009-0007-1895-8603)    
 Richard Palmer (Victoria and Albert Museum)  
-Elena Pierazzo (University of Tours)  
 Doug Reside (NYPL)  
 Robert Sanderson (Yale University)
 
